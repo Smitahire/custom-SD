@@ -4,7 +4,7 @@ from transformers import CLIPTokenizer, CLIPTextModel
 def main(args):
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     tokenizer = CLIPTokenizer.from_pretrained('openai/clip-vit-base-patch32')
-    text_encoder = CLIPTextModel.from_pretrained('openai/clip-vit-base-patch32').to(device)
+    text_encoder = CLIPTextModel.from_pretrained('openai/clip-vit-base-patch32',use_safetensors=True).to(device)
     text_encoder.eval()
 
     with open(args.prompts, 'r', encoding='utf-8') as f:

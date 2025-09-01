@@ -34,7 +34,7 @@ def main(args):
     X = X[idxs]
     y = np.array([ys[i] for i in idxs], dtype=np.int64)
 
-    X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+    X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)#, stratify=y
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = TinyMLP(dim_in=X.shape[1], dim_hidden=512, num_classes=len(STEP_BINS)).to(device)

@@ -16,7 +16,7 @@ def setup_pipe(height, width):
     )
     if torch.cuda.is_available():
         pipe = pipe.to("cuda")
-        pipe.enable_xformers_memory_efficient_attention()
+        #pipe.enable_xformers_memory_efficient_attention()
         pipe.enable_attention_slicing()
         pipe.enable_vae_slicing()
         pipe.enable_model_cpu_offload()
@@ -24,8 +24,8 @@ def setup_pipe(height, width):
     return pipe
 
 def load_text_encoder():
-    tok = CLIPTokenizer.from_pretrained('openai/clip-vit-base-patch32')
-    enc = CLIPTextModel.from_pretrained('openai/clip-vit-base-patch32')
+    tok = CLIPTokenizer.from_pretrained('openai/clip-vit-base-patch32',use_safetensors=True)
+    enc = CLIPTextModel.from_pretrained('openai/clip-vit-base-patch32',use_safetensors=True)
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     enc = enc.to(device).eval()
     return tok, enc, device
