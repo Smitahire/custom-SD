@@ -1,0 +1,10 @@
+{"prompt_id": 0, "prompt": "a red ball on a wooden table", "steps": 25, "clipscore": 0.36515435576438904, "latency_s": 7.744328498840332, "image": "tmp_images\\p0_s25.png"}
+{"prompt_id": 1, "prompt": "a cyberpunk city at sunset with neon reflections", "steps": 35, "clipscore": 0.3660571575164795, "latency_s": 7.3142640590667725, "image": "tmp_images\\p1_s35.png"}
+{"prompt_id": 2, "prompt": "a portrait photo of a young woman smiling, natural light", "steps": 35, "clipscore": 0.3123105466365814, "latency_s": 7.349481582641602, "image": "tmp_images\\p2_s35.png"}
+{"prompt_id": 3, "prompt": "a watercolor painting of a mountain landscape", "steps": 25, "clipscore": 0.32800179719924927, "latency_s": 5.619709730148315, "image": "tmp_images\\p3_s25.png"}
+{"prompt_id": 4, "prompt": "a futuristic sports car parked under street lights", "steps": 25, "clipscore": 0.336394339799881, "latency_s": 5.572965383529663, "image": "tmp_images\\p4_s25.png"}
+{"prompt_id": 5, "prompt": "a cozy living room with plants and warm lighting", "steps": 25, "clipscore": 0.3045622706413269, "latency_s": 5.618379831314087, "image": "tmp_images\\p5_s25.png"}
+{"prompt_id": 6, "prompt": "a dragon flying over a medieval castle at night", "steps": 45, "clipscore": 0.3624984323978424, "latency_s": 9.017465591430664, "image": "tmp_images\\p6_s45.png"}
+{"prompt_id": 7, "prompt": "a bowl of ramen with chopsticks, studio lighting", "steps": 25, "clipscore": 0.3256782293319702, "latency_s": 5.732051134109497, "image": "tmp_images\\p7_s25.png"}
+{"prompt_id": 8, "prompt": "a robot reading a book in a library", "steps": 25, "clipscore": 0.3453918695449829, "latency_s": 5.60391902923584, "image": "tmp_images\\p8_s25.png"}
+{"prompt_id": 9, "prompt": "a golden retriever playing in a field of flowers", "steps": 45, "clipscore": 0.3922663927078247, "latency_s": 8.958903074264526, "image": "tmp_images\\p9_s45.png"}
