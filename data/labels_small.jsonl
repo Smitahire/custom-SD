@@ -1,10 +1,346 @@
-{"prompt_id": 0, "prompt": "a red ball on a wooden table", "steps": 25, "clipscore": 0.36515435576438904, "latency_s": 7.744328498840332, "image": "tmp_images\\p0_s25.png"}
-{"prompt_id": 1, "prompt": "a cyberpunk city at sunset with neon reflections", "steps": 35, "clipscore": 0.3660571575164795, "latency_s": 7.3142640590667725, "image": "tmp_images\\p1_s35.png"}
-{"prompt_id": 2, "prompt": "a portrait photo of a young woman smiling, natural light", "steps": 35, "clipscore": 0.3123105466365814, "latency_s": 7.349481582641602, "image": "tmp_images\\p2_s35.png"}
-{"prompt_id": 3, "prompt": "a watercolor painting of a mountain landscape", "steps": 25, "clipscore": 0.32800179719924927, "latency_s": 5.619709730148315, "image": "tmp_images\\p3_s25.png"}
-{"prompt_id": 4, "prompt": "a futuristic sports car parked under street lights", "steps": 25, "clipscore": 0.336394339799881, "latency_s": 5.572965383529663, "image": "tmp_images\\p4_s25.png"}
-{"prompt_id": 5, "prompt": "a cozy living room with plants and warm lighting", "steps": 25, "clipscore": 0.3045622706413269, "latency_s": 5.618379831314087, "image": "tmp_images\\p5_s25.png"}
-{"prompt_id": 6, "prompt": "a dragon flying over a medieval castle at night", "steps": 45, "clipscore": 0.3624984323978424, "latency_s": 9.017465591430664, "image": "tmp_images\\p6_s45.png"}
-{"prompt_id": 7, "prompt": "a bowl of ramen with chopsticks, studio lighting", "steps": 25, "clipscore": 0.3256782293319702, "latency_s": 5.732051134109497, "image": "tmp_images\\p7_s25.png"}
-{"prompt_id": 8, "prompt": "a robot reading a book in a library", "steps": 25, "clipscore": 0.3453918695449829, "latency_s": 5.60391902923584, "image": "tmp_images\\p8_s25.png"}
-{"prompt_id": 9, "prompt": "a golden retriever playing in a field of flowers", "steps": 45, "clipscore": 0.3922663927078247, "latency_s": 8.958903074264526, "image": "tmp_images\\p9_s45.png"}
+{"prompt_id": 0, "prompt": "a red apple", "steps": 45, "clipscore": 0.32689058780670166, "latency_s": 8.69172716140747, "image": "tmp_images\\p0_s45.png"}
+{"prompt_id": 1, "prompt": "a magical library with floating books and spiral staircases", "steps": 25, "clipscore": 0.34785154461860657, "latency_s": 5.318243741989136, "image": "tmp_images\\p1_s25.png"}
+{"prompt_id": 2, "prompt": "a city street", "steps": 35, "clipscore": 0.28451046347618103, "latency_s": 6.947525262832642, "image": "tmp_images\\p2_s35.png"}
+{"prompt_id": 3, "prompt": "an orange cat", "steps": 35, "clipscore": 0.32085368037223816, "latency_s": 6.948922634124756, "image": "tmp_images\\p3_s35.png"}
+{"prompt_id": 4, "prompt": "a cozy reading nook with fairy lights and floating books", "steps": 25, "clipscore": 0.37938201427459717, "latency_s": 5.28700590133667, "image": "tmp_images\\p4_s25.png"}
+{"prompt_id": 5, "prompt": "tin can", "steps": 25, "clipscore": 0.3361704349517822, "latency_s": 5.320044994354248, "image": "tmp_images\\p5_s25.png"}
+{"prompt_id": 6, "prompt": "a quantum physics laboratory with impossible geometry and energy patterns", "steps": 25, "clipscore": 0.2814241349697113, "latency_s": 5.304711818695068, "image": "tmp_images\\p6_s25.png"}
+{"prompt_id": 7, "prompt": "a bustling street market with colorful vendor stalls", "steps": 45, "clipscore": 0.329723984003067, "latency_s": 8.675467252731323, "image": "tmp_images\\p7_s45.png"}
+{"prompt_id": 8, "prompt": "blue sky", "steps": 35, "clipscore": 0.25976839661598206, "latency_s": 7.0481719970703125, "image": "tmp_images\\p8_s35.png"}
+{"prompt_id": 9, "prompt": "an enchanted ballroom with magical creatures dancing under crystal chandeliers", "steps": 35, "clipscore": 0.3140465021133423, "latency_s": 7.009706735610962, "image": "tmp_images\\p9_s35.png"}
+{"prompt_id": 10, "prompt": "a wooden chair", "steps": 25, "clipscore": 0.31498968601226807, "latency_s": 5.324774265289307, "image": "tmp_images\\p10_s25.png"}
+{"prompt_id": 11, "prompt": "urban rooftop garden with city views and string lights", "steps": 45, "clipscore": 0.33499422669410706, "latency_s": 8.96942925453186, "image": "tmp_images\\p11_s45.png"}
+{"prompt_id": 12, "prompt": "night sky", "steps": 35, "clipscore": 0.2857327461242676, "latency_s": 7.227626800537109, "image": "tmp_images\\p12_s35.png"}
+{"prompt_id": 13, "prompt": "a glass of water", "steps": 25, "clipscore": 0.3258597254753113, "latency_s": 5.475476026535034, "image": "tmp_images\\p13_s25.png"}
+{"prompt_id": 14, "prompt": "a steampunk workshop filled with brass gears and steam engines", "steps": 35, "clipscore": 0.3766552805900574, "latency_s": 7.155610084533691, "image": "tmp_images\\p14_s35.png"}
+{"prompt_id": 15, "prompt": "simple cup", "steps": 45, "clipscore": 0.30722305178642273, "latency_s": 8.888131856918335, "image": "tmp_images\\p15_s45.png"}
+{"prompt_id": 16, "prompt": "a peaceful mountain lake reflecting snow-capped peaks", "steps": 45, "clipscore": 0.32070642709732056, "latency_s": 8.975324630737305, "image": "tmp_images\\p16_s45.png"}
+{"prompt_id": 17, "prompt": "autumn forest", "steps": 45, "clipscore": 0.3060721457004547, "latency_s": 8.90951657295227, "image": "tmp_images\\p17_s45.png"}
+{"prompt_id": 18, "prompt": "a modern office space with glass walls", "steps": 35, "clipscore": 0.3296722173690796, "latency_s": 7.244743824005127, "image": "tmp_images\\p18_s35.png"}
+{"prompt_id": 19, "prompt": "a dystopian marketplace with mix of high-tech gadgets and salvaged materials", "steps": 35, "clipscore": 0.2983042895793915, "latency_s": 7.228295087814331, "image": "tmp_images\\p19_s35.png"}
+{"prompt_id": 20, "prompt": "a simple house", "steps": 25, "clipscore": 0.2736320197582245, "latency_s": 5.45498251914978, "image": "tmp_images\\p20_s25.png"}
+{"prompt_id": 21, "prompt": "detailed portrait of a wise owl perched on ancient ruins", "steps": 45, "clipscore": 0.33944353461265564, "latency_s": 8.972269773483276, "image": "tmp_images\\p21_s45.png"}
+{"prompt_id": 22, "prompt": "wet grass", "steps": 35, "clipscore": 0.298934668302536, "latency_s": 7.329384088516235, "image": "tmp_images\\p22_s35.png"}
+{"prompt_id": 23, "prompt": "a traditional Japanese garden with koi pond", "steps": 35, "clipscore": 0.3307950496673584, "latency_s": 7.265471696853638, "image": "tmp_images\\p23_s35.png"}
+{"prompt_id": 24, "prompt": "an underwater city with bio-luminescent architecture and aquatic vehicles", "steps": 45, "clipscore": 0.34341898560523987, "latency_s": 9.070661067962646, "image": "tmp_images\\p24_s45.png"}
+{"prompt_id": 25, "prompt": "a green tree", "steps": 25, "clipscore": 0.30640172958374023, "latency_s": 5.501339673995972, "image": "tmp_images\\p25_s25.png"}
+{"prompt_id": 26, "prompt": "magical potion shop with bubbling cauldrons and floating ingredients", "steps": 45, "clipscore": 0.3725340664386749, "latency_s": 8.953215837478638, "image": "tmp_images\\p26_s45.png"}
+{"prompt_id": 27, "prompt": "beach sunset", "steps": 45, "clipscore": 0.2757645547389984, "latency_s": 9.033832788467407, "image": "tmp_images\\p27_s45.png"}
+{"prompt_id": 28, "prompt": "a coffee shop interior", "steps": 35, "clipscore": 0.27886950969696045, "latency_s": 7.22390079498291, "image": "tmp_images\\p28_s35.png"}
+{"prompt_id": 29, "prompt": "a mythical garden with giant crystals and creatures from various legends", "steps": 25, "clipscore": 0.3215476870536804, "latency_s": 5.439864635467529, "image": "tmp_images\\p29_s25.png"}
+{"prompt_id": 30, "prompt": "a white cloud", "steps": 35, "clipscore": 0.285829097032547, "latency_s": 7.325548887252808, "image": "tmp_images\\p30_s35.png"}
+{"prompt_id": 31, "prompt": "a hyperrealistic close-up portrait of an elderly person with weathered features", "steps": 45, "clipscore": 0.33502328395843506, "latency_s": 9.116605997085571, "image": "tmp_images\\p31_s45.png"}
+{"prompt_id": 32, "prompt": "snowy mountain", "steps": 35, "clipscore": 0.2921486496925354, "latency_s": 7.269508600234985, "image": "tmp_images\\p32_s35.png"}
+{"prompt_id": 33, "prompt": "a bicycle in a park", "steps": 35, "clipscore": 0.3151773512363434, "latency_s": 7.292024374008179, "image": "tmp_images\\p33_s35.png"}
+{"prompt_id": 34, "prompt": "an interdimensional market with impossible physics and strange creatures", "steps": 35, "clipscore": 0.28841158747673035, "latency_s": 7.261918067932129, "image": "tmp_images\\p34_s35.png"}
+{"prompt_id": 35, "prompt": "a brick wall", "steps": 25, "clipscore": 0.31421226263046265, "latency_s": 5.467611789703369, "image": "tmp_images\\p35_s25.png"}
+{"prompt_id": 36, "prompt": "vintage train station during golden hour", "steps": 25, "clipscore": 0.2993871569633484, "latency_s": 5.5063230991363525, "image": "tmp_images\\p36_s25.png"}
+{"prompt_id": 37, "prompt": "gold ring", "steps": 35, "clipscore": 0.32662585377693176, "latency_s": 7.2131640911102295, "image": "tmp_images\\p37_s35.png"}
+{"prompt_id": 38, "prompt": "a cityscape at night", "steps": 45, "clipscore": 0.3007134199142456, "latency_s": 9.050752878189087, "image": "tmp_images\\p38_s45.png"}
+{"prompt_id": 39, "prompt": "a futuristic laboratory with holographic displays and robots", "steps": 35, "clipscore": 0.33930468559265137, "latency_s": 7.325023651123047, "image": "tmp_images\\p39_s35.png"}
+{"prompt_id": 40, "prompt": "a yellow flower", "steps": 25, "clipscore": 0.30882444977760315, "latency_s": 5.493024826049805, "image": "tmp_images\\p40_s25.png"}
+{"prompt_id": 41, "prompt": "mystical cave with glowing crystals", "steps": 45, "clipscore": 0.34186649322509766, "latency_s": 8.98942232131958, "image": "tmp_images\\p41_s45.png"}
+{"prompt_id": 42, "prompt": "morning fog", "steps": 25, "clipscore": 0.2704829275608063, "latency_s": 5.530970573425293, "image": "tmp_images\\p42_s25.png"}
+{"prompt_id": 43, "prompt": "a garden path lined with blooming flowers", "steps": 25, "clipscore": 0.3445506691932678, "latency_s": 5.453498363494873, "image": "tmp_images\\p43_s25.png"}
+{"prompt_id": 44, "prompt": "a time traveler's study room filled with artifacts from different eras", "steps": 35, "clipscore": 0.33507251739501953, "latency_s": 7.294769287109375, "image": "tmp_images\\p44_s35.png"}
+{"prompt_id": 45, "prompt": "wooden door", "steps": 35, "clipscore": 0.3193758428096771, "latency_s": 7.212494373321533, "image": "tmp_images\\p45_s35.png"}
+{"prompt_id": 46, "prompt": "an ethereal underwater scene with bioluminescent jellyfish and coral reefs", "steps": 25, "clipscore": 0.26790904998779297, "latency_s": 5.564207077026367, "image": "tmp_images\\p46_s25.png"}
+{"prompt_id": 47, "prompt": "rainy day", "steps": 45, "clipscore": 0.27825868129730225, "latency_s": 9.089070081710815, "image": "tmp_images\\p47_s45.png"}
+{"prompt_id": 48, "prompt": "a red sports car on a street", "steps": 45, "clipscore": 0.30658137798309326, "latency_s": 9.086153984069824, "image": "tmp_images\\p48_s45.png"}
+{"prompt_id": 49, "prompt": "a quantum computer lab with visible data streams and energy patterns", "steps": 35, "clipscore": 0.29821375012397766, "latency_s": 7.351497173309326, "image": "tmp_images\\p49_s35.png"}
+{"prompt_id": 50, "prompt": "black cat", "steps": 45, "clipscore": 0.3069440424442291, "latency_s": 9.084751844406128, "image": "tmp_images\\p50_s45.png"}
+{"prompt_id": 51, "prompt": "peaceful zen garden in morning mist", "steps": 35, "clipscore": 0.37522560358047485, "latency_s": 7.324486017227173, "image": "tmp_images\\p51_s35.png"}
+{"prompt_id": 52, "prompt": "quiet library", "steps": 25, "clipscore": 0.29055413603782654, "latency_s": 5.57115626335144, "image": "tmp_images\\p52_s25.png"}
+{"prompt_id": 53, "prompt": "a modern kitchen", "steps": 25, "clipscore": 0.30355104804039, "latency_s": 5.626806020736694, "image": "tmp_images\\p53_s25.png"}
+{"prompt_id": 54, "prompt": "a space station observation deck overlooking Earth and distant stars", "steps": 25, "clipscore": 0.3281559944152832, "latency_s": 5.61244797706604, "image": "tmp_images\\p54_s25.png"}
+{"prompt_id": 55, "prompt": "fresh bread", "steps": 45, "clipscore": 0.3096419870853424, "latency_s": 9.096961736679077, "image": "tmp_images\\p55_s45.png"}
+{"prompt_id": 56, "prompt": "busy spaceport with various aliens", "steps": 45, "clipscore": 0.2830178141593933, "latency_s": 9.101255655288696, "image": "tmp_images\\p56_s45.png"}
+{"prompt_id": 57, "prompt": "summer garden", "steps": 25, "clipscore": 0.27199655771255493, "latency_s": 5.4872887134552, "image": "tmp_images\\p57_s25.png"}
+{"prompt_id": 58, "prompt": "a cat sleeping in sunlight", "steps": 25, "clipscore": 0.31207355856895447, "latency_s": 5.590149164199829, "image": "tmp_images\\p58_s25.png"}
+{"prompt_id": 59, "prompt": "a virtual reality cityscape with data streams and digital artifacts", "steps": 25, "clipscore": 0.31807941198349, "latency_s": 5.5682477951049805, "image": "tmp_images\\p59_s25.png"}
+{"prompt_id": 60, "prompt": "green leaf", "steps": 45, "clipscore": 0.3133355975151062, "latency_s": 9.101939916610718, "image": "tmp_images\\p60_s45.png"}
+{"prompt_id": 61, "prompt": "enchanted forest with spirit lights", "steps": 45, "clipscore": 0.324844628572464, "latency_s": 9.104872941970825, "image": "tmp_images\\p61_s45.png"}
+{"prompt_id": 62, "prompt": "empty cafe", "steps": 25, "clipscore": 0.2779925763607025, "latency_s": 5.7232348918914795, "image": "tmp_images\\p62_s25.png"}
+{"prompt_id": 63, "prompt": "a mountain lake at sunset", "steps": 45, "clipscore": 0.2973105013370514, "latency_s": 9.128462314605713, "image": "tmp_images\\p63_s45.png"}
+{"prompt_id": 64, "prompt": "a dragon's lair filled with treasure and ancient artifacts", "steps": 45, "clipscore": 0.30920544266700745, "latency_s": 9.052186012268066, "image": "tmp_images\\p64_s45.png"}
+{"prompt_id": 65, "prompt": "old book", "steps": 35, "clipscore": 0.2829042673110962, "latency_s": 7.277461528778076, "image": "tmp_images\\p65_s35.png"}
+{"prompt_id": 66, "prompt": "steampunk airship in sunset sky", "steps": 35, "clipscore": 0.35965490341186523, "latency_s": 7.293551921844482, "image": "tmp_images\\p66_s35.png"}
+{"prompt_id": 67, "prompt": "small pond", "steps": 35, "clipscore": 0.2839781641960144, "latency_s": 7.273576736450195, "image": "tmp_images\\p67_s35.png"}
+{"prompt_id": 68, "prompt": "a beach with palm trees", "steps": 35, "clipscore": 0.305927574634552, "latency_s": 7.24350118637085, "image": "tmp_images\\p68_s35.png"}
+{"prompt_id": 69, "prompt": "an ancient library with living books and ghostly librarians", "steps": 35, "clipscore": 0.31023386120796204, "latency_s": 7.438488960266113, "image": "tmp_images\\p69_s35.png"}
+{"prompt_id": 70, "prompt": "glass bowl", "steps": 25, "clipscore": 0.3278355896472931, "latency_s": 5.583744287490845, "image": "tmp_images\\p70_s25.png"}
+{"prompt_id": 71, "prompt": "a modern art gallery opening with interactive holographic exhibits", "steps": 25, "clipscore": 0.33380118012428284, "latency_s": 5.535851716995239, "image": "tmp_images\\p71_s25.png"}
+{"prompt_id": 72, "prompt": "dirt road", "steps": 45, "clipscore": 0.3125598430633545, "latency_s": 9.027053117752075, "image": "tmp_images\\p72_s45.png"}
+{"prompt_id": 73, "prompt": "a garden with flowers", "steps": 35, "clipscore": 0.3059413433074951, "latency_s": 7.230887174606323, "image": "tmp_images\\p73_s35.png"}
+{"prompt_id": 74, "prompt": "a surreal desert landscape with floating islands and multiple moons", "steps": 25, "clipscore": 0.3463502526283264, "latency_s": 5.528394460678101, "image": "tmp_images\\p74_s25.png"}
+{"prompt_id": 75, "prompt": "dry leaves", "steps": 45, "clipscore": 0.30818119645118713, "latency_s": 9.021954774856567, "image": "tmp_images\\p75_s45.png"}
+{"prompt_id": 76, "prompt": "post-apocalyptic sanctuary hidden in overgrown skyscraper", "steps": 25, "clipscore": 0.327064573764801, "latency_s": 5.486231088638306, "image": "tmp_images\\p76_s25.png"}
+{"prompt_id": 77, "prompt": "tall tree", "steps": 45, "clipscore": 0.28658249974250793, "latency_s": 9.06928563117981, "image": "tmp_images\\p77_s45.png"}
+{"prompt_id": 78, "prompt": "a forest path in autumn", "steps": 45, "clipscore": 0.3148350119590759, "latency_s": 9.047852277755737, "image": "tmp_images\\p78_s45.png"}
+{"prompt_id": 79, "prompt": "a crystal palace with rainbow light refractions and magical fountains", "steps": 35, "clipscore": 0.34322288632392883, "latency_s": 7.315162897109985, "image": "tmp_images\\p79_s35.png"}
+{"prompt_id": 80, "prompt": "stone wall", "steps": 45, "clipscore": 0.31865742802619934, "latency_s": 9.02062177658081, "image": "tmp_images\\p80_s45.png"}
+{"prompt_id": 81, "prompt": "mythological creatures gathering at a magical oasis", "steps": 25, "clipscore": 0.3108692467212677, "latency_s": 5.482740640640259, "image": "tmp_images\\p81_s25.png"}
+{"prompt_id": 82, "prompt": "grey rock", "steps": 35, "clipscore": 0.27876102924346924, "latency_s": 7.2795655727386475, "image": "tmp_images\\p82_s35.png"}
+{"prompt_id": 83, "prompt": "an abandoned amusement park at sunset with overgrown vegetation and rusty rides", "steps": 25, "clipscore": 0.3414657413959503, "latency_s": 5.549251556396484, "image": "tmp_images\\p83_s25.png"}
+{"prompt_id": 84, "prompt": "small box", "steps": 25, "clipscore": 0.31393033266067505, "latency_s": 5.543991327285767, "image": "tmp_images\\p84_s25.png"}
+{"prompt_id": 85, "prompt": "a cyberpunk cityscape at night with neon signs and flying vehicles", "steps": 35, "clipscore": 0.34350311756134033, "latency_s": 7.386627674102783, "image": "tmp_images\\p85_s35.png"}
+{"prompt_id": 86, "prompt": "white snow", "steps": 25, "clipscore": 0.2811984717845917, "latency_s": 5.532963275909424, "image": "tmp_images\\p86_s25.png"}
+{"prompt_id": 87, "prompt": "a futuristic zen garden with bio-luminescent plants and floating rocks", "steps": 35, "clipscore": 0.35706910490989685, "latency_s": 7.400079727172852, "image": "tmp_images\\p87_s35.png"}
+{"prompt_id": 88, "prompt": "a vertical city with interconnected skyscrapers and flying transport pods", "steps": 35, "clipscore": 0.3193584084510803, "latency_s": 7.364346265792847, "image": "tmp_images\\p88_s35.png"}
+{"prompt_id": 89, "prompt": "a time-frozen moment in a busy city with visible time distortions", "steps": 35, "clipscore": 0.2815918028354645, "latency_s": 7.345658302307129, "image": "tmp_images\\p89_s35.png"}
+{"prompt_id": 90, "prompt": "an ancient temple ruins overtaken by nature and mysterious symbols", "steps": 35, "clipscore": 0.3433506488800049, "latency_s": 7.265138864517212, "image": "tmp_images\\p90_s35.png"}
+{"prompt_id": 91, "prompt": "a red sports car on a street", "steps": 25, "clipscore": 0.31142815947532654, "latency_s": 5.55411434173584, "image": "tmp_images\\p91_s25.png"}
+{"prompt_id": 92, "prompt": "a cat sleeping in sunlight", "steps": 45, "clipscore": 0.3150189518928528, "latency_s": 9.08496880531311, "image": "tmp_images\\p92_s45.png"}
+{"prompt_id": 93, "prompt": "a mountain lake at sunset", "steps": 45, "clipscore": 0.29780787229537964, "latency_s": 9.049313306808472, "image": "tmp_images\\p93_s45.png"}
+{"prompt_id": 94, "prompt": "a coffee shop interior", "steps": 25, "clipscore": 0.28877705335617065, "latency_s": 5.6232123374938965, "image": "tmp_images\\p94_s25.png"}
+{"prompt_id": 95, "prompt": "a bicycle in a park", "steps": 25, "clipscore": 0.31643083691596985, "latency_s": 5.652307510375977, "image": "tmp_images\\p95_s25.png"}
+{"prompt_id": 96, "prompt": "a cityscape at night", "steps": 25, "clipscore": 0.31340155005455017, "latency_s": 5.528176784515381, "image": "tmp_images\\p96_s25.png"}
+{"prompt_id": 97, "prompt": "a beach with palm trees", "steps": 45, "clipscore": 0.30600351095199585, "latency_s": 9.102869033813477, "image": "tmp_images\\p97_s45.png"}
+{"prompt_id": 98, "prompt": "a garden with flowers", "steps": 25, "clipscore": 0.30568212270736694, "latency_s": 5.622488737106323, "image": "tmp_images\\p98_s25.png"}
+{"prompt_id": 99, "prompt": "a forest path in autumn", "steps": 45, "clipscore": 0.3269649147987366, "latency_s": 9.054764032363892, "image": "tmp_images\\p99_s45.png"}
+{"prompt_id": 100, "prompt": "a modern kitchen", "steps": 25, "clipscore": 0.29595959186553955, "latency_s": 5.5590105056762695, "image": "tmp_images\\p100_s25.png"}
+{"prompt_id": 101, "prompt": "a cozy cafe interior with morning sunlight streaming through windows", "steps": 35, "clipscore": 0.2833097577095032, "latency_s": 7.356240272521973, "image": "tmp_images\\p101_s35.png"}
+{"prompt_id": 102, "prompt": "a peaceful mountain lake reflecting snow-capped peaks", "steps": 45, "clipscore": 0.3163401186466217, "latency_s": 9.03452205657959, "image": "tmp_images\\p102_s45.png"}
+{"prompt_id": 103, "prompt": "a bustling street market with colorful vendor stalls", "steps": 35, "clipscore": 0.3348289430141449, "latency_s": 7.343946218490601, "image": "tmp_images\\p103_s35.png"}
+{"prompt_id": 104, "prompt": "a vintage car parked outside a rustic diner", "steps": 45, "clipscore": 0.3228550851345062, "latency_s": 9.154721021652222, "image": "tmp_images\\p104_s45.png"}
+{"prompt_id": 105, "prompt": "a garden path lined with blooming flowers", "steps": 35, "clipscore": 0.3494153618812561, "latency_s": 7.30400276184082, "image": "tmp_images\\p105_s35.png"}
+{"prompt_id": 106, "prompt": "a modern office space with glass walls", "steps": 35, "clipscore": 0.3180822730064392, "latency_s": 7.37253737449646, "image": "tmp_images\\p106_s35.png"}
+{"prompt_id": 107, "prompt": "a traditional Japanese garden with koi pond", "steps": 25, "clipscore": 0.3290378153324127, "latency_s": 5.569740533828735, "image": "tmp_images\\p107_s25.png"}
+{"prompt_id": 108, "prompt": "a small coastal town with lighthouse", "steps": 35, "clipscore": 0.2810283601284027, "latency_s": 7.339240550994873, "image": "tmp_images\\p108_s35.png"}
+{"prompt_id": 109, "prompt": "a farm field during harvest season", "steps": 45, "clipscore": 0.3102046847343445, "latency_s": 9.097601175308228, "image": "tmp_images\\p109_s45.png"}
+{"prompt_id": 110, "prompt": "a city park in spring bloom", "steps": 25, "clipscore": 0.31812411546707153, "latency_s": 5.498856067657471, "image": "tmp_images\\p110_s25.png"}
+{"prompt_id": 111, "prompt": "an ethereal underwater scene with bioluminescent jellyfish and coral reefs", "steps": 35, "clipscore": 0.3111955225467682, "latency_s": 7.445882081985474, "image": "tmp_images\\p111_s35.png"}
+{"prompt_id": 112, "prompt": "a cyberpunk cityscape at night with neon signs and flying vehicles", "steps": 35, "clipscore": 0.35143378376960754, "latency_s": 7.383078575134277, "image": "tmp_images\\p112_s35.png"}
+{"prompt_id": 113, "prompt": "a magical library with floating books and spiral staircases", "steps": 35, "clipscore": 0.33972132205963135, "latency_s": 7.345281600952148, "image": "tmp_images\\p113_s35.png"}
+{"prompt_id": 114, "prompt": "a steampunk workshop filled with brass gears and steam engines", "steps": 35, "clipscore": 0.3478453755378723, "latency_s": 7.429025411605835, "image": "tmp_images\\p114_s35.png"}
+{"prompt_id": 115, "prompt": "a fantasy throne room with crystal chandeliers and golden details", "steps": 25, "clipscore": 0.32709169387817383, "latency_s": 5.625434637069702, "image": "tmp_images\\p115_s25.png"}
+{"prompt_id": 116, "prompt": "a futuristic laboratory with holographic displays and robots", "steps": 25, "clipscore": 0.3125317096710205, "latency_s": 5.5955810546875, "image": "tmp_images\\p116_s25.png"}
+{"prompt_id": 117, "prompt": "a mystical forest clearing with glowing mushrooms and fairy lights", "steps": 45, "clipscore": 0.3405560851097107, "latency_s": 9.048947095870972, "image": "tmp_images\\p117_s45.png"}
+{"prompt_id": 118, "prompt": "an ancient temple ruins overtaken by nature and mysterious symbols", "steps": 35, "clipscore": 0.3056652545928955, "latency_s": 7.308862924575806, "image": "tmp_images\\p118_s35.png"}
+{"prompt_id": 119, "prompt": "a space station observation deck overlooking Earth and distant stars", "steps": 25, "clipscore": 0.3367452025413513, "latency_s": 5.567388296127319, "image": "tmp_images\\p119_s25.png"}
+{"prompt_id": 120, "prompt": "a dragon's lair filled with treasure and ancient artifacts", "steps": 25, "clipscore": 0.3111017346382141, "latency_s": 5.566863059997559, "image": "tmp_images\\p120_s25.png"}
+{"prompt_id": 121, "prompt": "an abandoned amusement park at sunset with overgrown vegetation and rusty rides", "steps": 35, "clipscore": 0.34828734397888184, "latency_s": 7.357215881347656, "image": "tmp_images\\p121_s35.png"}
+{"prompt_id": 122, "prompt": "a hyperrealistic close-up portrait of an elderly person with weathered features", "steps": 25, "clipscore": 0.35102367401123047, "latency_s": 5.575873136520386, "image": "tmp_images\\p122_s25.png"}
+{"prompt_id": 123, "prompt": "a dystopian marketplace with mix of high-tech gadgets and salvaged materials", "steps": 45, "clipscore": 0.3076452910900116, "latency_s": 9.049536228179932, "image": "tmp_images\\p123_s45.png"}
+{"prompt_id": 124, "prompt": "an enchanted ballroom with magical creatures dancing under crystal chandeliers", "steps": 45, "clipscore": 0.33136773109436035, "latency_s": 9.069631576538086, "image": "tmp_images\\p124_s45.png"}
+{"prompt_id": 125, "prompt": "a vertical city with interconnected skyscrapers and flying transport pods", "steps": 25, "clipscore": 0.3110511302947998, "latency_s": 5.5883870124816895, "image": "tmp_images\\p125_s25.png"}
+{"prompt_id": 126, "prompt": "a time traveler's study room filled with artifacts from different eras", "steps": 25, "clipscore": 0.33625417947769165, "latency_s": 5.634579181671143, "image": "tmp_images\\p126_s25.png"}
+{"prompt_id": 127, "prompt": "a surreal desert landscape with floating islands and multiple moons", "steps": 25, "clipscore": 0.3312113285064697, "latency_s": 5.594178915023804, "image": "tmp_images\\p127_s25.png"}
+{"prompt_id": 128, "prompt": "an underwater city with bio-luminescent architecture and aquatic vehicles", "steps": 25, "clipscore": 0.32661759853363037, "latency_s": 5.572590112686157, "image": "tmp_images\\p128_s25.png"}
+{"prompt_id": 129, "prompt": "a quantum physics laboratory with impossible geometry and energy patterns", "steps": 25, "clipscore": 0.30392521619796753, "latency_s": 5.552480220794678, "image": "tmp_images\\p129_s25.png"}
+{"prompt_id": 130, "prompt": "a mythical garden with giant crystals and creatures from various legends", "steps": 45, "clipscore": 0.3157919943332672, "latency_s": 9.160344362258911, "image": "tmp_images\\p130_s45.png"}
+{"prompt_id": 131, "prompt": "simple cup", "steps": 45, "clipscore": 0.301284521818161, "latency_s": 9.127413511276245, "image": "tmp_images\\p131_s45.png"}
+{"prompt_id": 132, "prompt": "wooden door", "steps": 25, "clipscore": 0.3298374116420746, "latency_s": 5.574833869934082, "image": "tmp_images\\p132_s25.png"}
+{"prompt_id": 133, "prompt": "black cat", "steps": 25, "clipscore": 0.29302164912223816, "latency_s": 5.521265029907227, "image": "tmp_images\\p133_s25.png"}
+{"prompt_id": 134, "prompt": "fresh bread", "steps": 45, "clipscore": 0.29918232560157776, "latency_s": 9.092099905014038, "image": "tmp_images\\p134_s45.png"}
+{"prompt_id": 135, "prompt": "green leaf", "steps": 45, "clipscore": 0.32763558626174927, "latency_s": 9.25181269645691, "image": "tmp_images\\p135_s45.png"}
+{"prompt_id": 136, "prompt": "old book", "steps": 45, "clipscore": 0.27386417984962463, "latency_s": 9.188164949417114, "image": "tmp_images\\p136_s45.png"}
+{"prompt_id": 137, "prompt": "glass bowl", "steps": 35, "clipscore": 0.33014070987701416, "latency_s": 7.28385329246521, "image": "tmp_images\\p137_s35.png"}
+{"prompt_id": 138, "prompt": "small pond", "steps": 45, "clipscore": 0.293894499540329, "latency_s": 9.042684078216553, "image": "tmp_images\\p138_s45.png"}
+{"prompt_id": 139, "prompt": "dirt road", "steps": 45, "clipscore": 0.31873631477355957, "latency_s": 9.1621253490448, "image": "tmp_images\\p139_s45.png"}
+{"prompt_id": 140, "prompt": "stone wall", "steps": 35, "clipscore": 0.31361913681030273, "latency_s": 7.267289161682129, "image": "tmp_images\\p140_s35.png"}
+{"prompt_id": 141, "prompt": "snowy mountain", "steps": 45, "clipscore": 0.29356712102890015, "latency_s": 9.153574466705322, "image": "tmp_images\\p141_s45.png"}
+{"prompt_id": 142, "prompt": "autumn forest", "steps": 45, "clipscore": 0.30168062448501587, "latency_s": 9.038784742355347, "image": "tmp_images\\p142_s45.png"}
+{"prompt_id": 143, "prompt": "city street", "steps": 35, "clipscore": 0.2649548053741455, "latency_s": 7.2998011112213135, "image": "tmp_images\\p143_s35.png"}
+{"prompt_id": 144, "prompt": "beach sunset", "steps": 25, "clipscore": 0.27944543957710266, "latency_s": 5.617946624755859, "image": "tmp_images\\p144_s25.png"}
+{"prompt_id": 145, "prompt": "rainy day", "steps": 25, "clipscore": 0.28781890869140625, "latency_s": 5.4757399559021, "image": "tmp_images\\p145_s25.png"}
+{"prompt_id": 146, "prompt": "morning fog", "steps": 45, "clipscore": 0.2870136797428131, "latency_s": 9.109318017959595, "image": "tmp_images\\p146_s45.png"}
+{"prompt_id": 147, "prompt": "quiet library", "steps": 35, "clipscore": 0.26498404145240784, "latency_s": 7.350356340408325, "image": "tmp_images\\p147_s35.png"}
+{"prompt_id": 148, "prompt": "empty cafe", "steps": 25, "clipscore": 0.2898003160953522, "latency_s": 5.593589544296265, "image": "tmp_images\\p148_s25.png"}
+{"prompt_id": 149, "prompt": "night sky", "steps": 25, "clipscore": 0.2748430073261261, "latency_s": 5.533038139343262, "image": "tmp_images\\p149_s25.png"}
+{"prompt_id": 150, "prompt": "summer garden", "steps": 35, "clipscore": 0.2933874726295471, "latency_s": 7.305220603942871, "image": "tmp_images\\p150_s35.png"}
+{"prompt_id": 151, "prompt": "detailed portrait of a wise owl perched on ancient ruins", "steps": 25, "clipscore": 0.30389124155044556, "latency_s": 5.566246271133423, "image": "tmp_images\\p151_s25.png"}
+{"prompt_id": 152, "prompt": "magical potion shop with bubbling cauldrons and floating ingredients", "steps": 25, "clipscore": 0.34035763144493103, "latency_s": 5.8432371616363525, "image": "tmp_images\\p152_s25.png"}
+{"prompt_id": 153, "prompt": "cozy reading nook with fairy lights and floating books", "steps": 45, "clipscore": 0.328812837600708, "latency_s": 9.103003025054932, "image": "tmp_images\\p153_s45.png"}
+{"prompt_id": 154, "prompt": "urban rooftop garden with city views and string lights", "steps": 25, "clipscore": 0.32553914189338684, "latency_s": 5.67440128326416, "image": "tmp_images\\p154_s25.png"}
+{"prompt_id": 155, "prompt": "vintage train station during golden hour", "steps": 45, "clipscore": 0.3264867067337036, "latency_s": 9.130800008773804, "image": "tmp_images\\p155_s45.png"}
+{"prompt_id": 156, "prompt": "mystical cave with glowing crystals", "steps": 25, "clipscore": 0.30795732140541077, "latency_s": 5.617826461791992, "image": "tmp_images\\p156_s25.png"}
+{"prompt_id": 157, "prompt": "peaceful zen garden in morning mist", "steps": 25, "clipscore": 0.37655964493751526, "latency_s": 5.566615581512451, "image": "tmp_images\\p157_s25.png"}
+{"prompt_id": 158, "prompt": "busy spaceport with various aliens", "steps": 35, "clipscore": 0.31627357006073, "latency_s": 7.3350889682769775, "image": "tmp_images\\p158_s35.png"}
+{"prompt_id": 159, "prompt": "enchanted forest with spirit lights", "steps": 35, "clipscore": 0.3281414210796356, "latency_s": 7.271258354187012, "image": "tmp_images\\p159_s35.png"}
+{"prompt_id": 160, "prompt": "steampunk airship in sunset sky", "steps": 45, "clipscore": 0.3975380063056946, "latency_s": 9.166845798492432, "image": "tmp_images\\p160_s45.png"}
+{"prompt_id": 161, "prompt": "modern art gallery opening with interactive holographic exhibits", "steps": 25, "clipscore": 0.30869898200035095, "latency_s": 5.5920631885528564, "image": "tmp_images\\p161_s25.png"}
+{"prompt_id": 162, "prompt": "post-apocalyptic sanctuary hidden in overgrown skyscraper", "steps": 35, "clipscore": 0.3426538109779358, "latency_s": 7.380309581756592, "image": "tmp_images\\p162_s35.png"}
+{"prompt_id": 163, "prompt": "interdimensional market with impossible physics and strange creatures", "steps": 35, "clipscore": 0.2752557694911957, "latency_s": 7.442028999328613, "image": "tmp_images\\p163_s35.png"}
+{"prompt_id": 164, "prompt": "ancient library with living books and ghostly librarians", "steps": 45, "clipscore": 0.31062063574790955, "latency_s": 9.080040216445923, "image": "tmp_images\\p164_s45.png"}
+{"prompt_id": 165, "prompt": "futuristic zen garden with bio-luminescent plants and floating rocks", "steps": 25, "clipscore": 0.3591485619544983, "latency_s": 5.540440320968628, "image": "tmp_images\\p165_s25.png"}
+{"prompt_id": 166, "prompt": "time-frozen moment in a busy city with visible time distortions", "steps": 35, "clipscore": 0.3184586763381958, "latency_s": 7.282034158706665, "image": "tmp_images\\p166_s35.png"}
+{"prompt_id": 167, "prompt": "crystal palace with rainbow light refractions and magical fountains", "steps": 45, "clipscore": 0.3495233356952667, "latency_s": 9.133919715881348, "image": "tmp_images\\p167_s45.png"}
+{"prompt_id": 168, "prompt": "quantum computer lab with visible data streams and energy patterns", "steps": 45, "clipscore": 0.2907004654407501, "latency_s": 9.184999227523804, "image": "tmp_images\\p168_s45.png"}
+{"prompt_id": 169, "prompt": "mythological creatures gathering at a magical oasis", "steps": 45, "clipscore": 0.3060235381126404, "latency_s": 9.059020280838013, "image": "tmp_images\\p169_s45.png"}
+{"prompt_id": 170, "prompt": "virtual reality cityscape with data streams and digital artifacts", "steps": 25, "clipscore": 0.3087846040725708, "latency_s": 5.519925117492676, "image": "tmp_images\\p170_s25.png"}
+{"prompt_id": 171, "prompt": "tin can", "steps": 45, "clipscore": 0.3094637393951416, "latency_s": 9.110761404037476, "image": "tmp_images\\p171_s45.png"}
+{"prompt_id": 172, "prompt": "blue sky", "steps": 25, "clipscore": 0.2762768268585205, "latency_s": 5.591382026672363, "image": "tmp_images\\p172_s25.png"}
+{"prompt_id": 173, "prompt": "red door", "steps": 35, "clipscore": 0.3206756114959717, "latency_s": 7.2743306159973145, "image": "tmp_images\\p173_s35.png"}
+{"prompt_id": 174, "prompt": "gold ring", "steps": 25, "clipscore": 0.3156772553920746, "latency_s": 5.661996126174927, "image": "tmp_images\\p174_s25.png"}
+{"prompt_id": 175, "prompt": "wet grass", "steps": 35, "clipscore": 0.27624255418777466, "latency_s": 7.303269386291504, "image": "tmp_images\\p175_s35.png"}
+{"prompt_id": 176, "prompt": "dry leaves", "steps": 45, "clipscore": 0.29094234108924866, "latency_s": 9.14969801902771, "image": "tmp_images\\p176_s45.png"}
+{"prompt_id": 177, "prompt": "small box", "steps": 45, "clipscore": 0.28791314363479614, "latency_s": 9.104637861251831, "image": "tmp_images\\p177_s45.png"}
+{"prompt_id": 178, "prompt": "tall tree", "steps": 25, "clipscore": 0.2827361524105072, "latency_s": 5.597006797790527, "image": "tmp_images\\p178_s25.png"}
+{"prompt_id": 179, "prompt": "grey rock", "steps": 35, "clipscore": 0.2818826735019684, "latency_s": 7.454967260360718, "image": "tmp_images\\p179_s35.png"}
+{"prompt_id": 180, "prompt": "white snow", "steps": 25, "clipscore": 0.28053489327430725, "latency_s": 5.597787141799927, "image": "tmp_images\\p180_s25.png"}
+{"prompt_id": 181, "prompt": "a vintage typewriter on a desk with coffee", "steps": 45, "clipscore": 0.32100343704223633, "latency_s": 9.132898807525635, "image": "tmp_images\\p181_s45.png"}
+{"prompt_id": 182, "prompt": "a serene zen garden with raked sand patterns", "steps": 25, "clipscore": 0.3617169260978699, "latency_s": 5.523780822753906, "image": "tmp_images\\p182_s25.png"}
+{"prompt_id": 183, "prompt": "a bustling farmer's market with colorful produce", "steps": 45, "clipscore": 0.32157841324806213, "latency_s": 9.138275384902954, "image": "tmp_images\\p183_s45.png"}
+{"prompt_id": 184, "prompt": "an astronaut floating in space with Earth below", "steps": 35, "clipscore": 0.31431031227111816, "latency_s": 7.261700391769409, "image": "tmp_images\\p184_s35.png"}
+{"prompt_id": 185, "prompt": "a steampunk clockwork mechanism with brass gears", "steps": 35, "clipscore": 0.31465449929237366, "latency_s": 7.315809488296509, "image": "tmp_images\\p185_s35.png"}
+{"prompt_id": 186, "prompt": "a misty forest path at dawn", "steps": 25, "clipscore": 0.3233143985271454, "latency_s": 5.636941909790039, "image": "tmp_images\\p186_s25.png"}
+{"prompt_id": 187, "prompt": "a traditional Japanese tea ceremony setting", "steps": 25, "clipscore": 0.33736497163772583, "latency_s": 5.607095241546631, "image": "tmp_images\\p187_s25.png"}
+{"prompt_id": 188, "prompt": "a lighthouse on a rocky coast during storm", "steps": 25, "clipscore": 0.32654789090156555, "latency_s": 5.609560966491699, "image": "tmp_images\\p188_s25.png"}
+{"prompt_id": 189, "prompt": "a detailed close-up of a butterfly on a flower", "steps": 25, "clipscore": 0.3335990607738495, "latency_s": 5.544440746307373, "image": "tmp_images\\p189_s25.png"}
+{"prompt_id": 190, "prompt": "a cozy cafe interior with morning sunlight", "steps": 45, "clipscore": 0.2785422205924988, "latency_s": 9.05431580543518, "image": "tmp_images\\p190_s45.png"}
+{"prompt_id": 191, "prompt": "a medieval knight in shining armor on horseback", "steps": 45, "clipscore": 0.34075695276260376, "latency_s": 9.013190746307373, "image": "tmp_images\\p191_s45.png"}
+{"prompt_id": 192, "prompt": "a vibrant coral reef with tropical fish", "steps": 45, "clipscore": 0.3302179276943207, "latency_s": 9.21410870552063, "image": "tmp_images\\p192_s45.png"}
+{"prompt_id": 193, "prompt": "an ancient temple ruins covered in vines", "steps": 25, "clipscore": 0.33148592710494995, "latency_s": 5.608341217041016, "image": "tmp_images\\p193_s25.png"}
+{"prompt_id": 194, "prompt": "a modern glass skyscraper reflecting clouds", "steps": 45, "clipscore": 0.31653106212615967, "latency_s": 9.116115093231201, "image": "tmp_images\\p194_s45.png"}
+{"prompt_id": 195, "prompt": "a peaceful lake with mountains at sunset", "steps": 35, "clipscore": 0.32101163268089294, "latency_s": 7.285780906677246, "image": "tmp_images\\p195_s35.png"}
+{"prompt_id": 196, "prompt": "a vintage motorcycle in a rustic garage", "steps": 25, "clipscore": 0.3278157413005829, "latency_s": 5.573509693145752, "image": "tmp_images\\p196_s25.png"}
+{"prompt_id": 197, "prompt": "a magical fairy garden with glowing mushrooms", "steps": 25, "clipscore": 0.3830447793006897, "latency_s": 5.316969871520996, "image": "tmp_images\\p197_s25.png"}
+{"prompt_id": 198, "prompt": "a wooden sailing ship on stormy seas", "steps": 45, "clipscore": 0.33665233850479126, "latency_s": 8.655366897583008, "image": "tmp_images\\p198_s45.png"}
+{"prompt_id": 199, "prompt": "a desert oasis with palm trees and pool", "steps": 25, "clipscore": 0.32193514704704285, "latency_s": 5.326148986816406, "image": "tmp_images\\p199_s25.png"}
+{"prompt_id": 200, "prompt": "a snowy mountain cabin at dusk", "steps": 45, "clipscore": 0.32680100202560425, "latency_s": 8.692291021347046, "image": "tmp_images\\p200_s45.png"}
+{"prompt_id": 201, "prompt": "a street musician playing violin in rain", "steps": 35, "clipscore": 0.38744404911994934, "latency_s": 7.054516315460205, "image": "tmp_images\\p201_s35.png"}
+{"prompt_id": 202, "prompt": "a retro diner interior with neon signs", "steps": 35, "clipscore": 0.3942224383354187, "latency_s": 7.119849681854248, "image": "tmp_images\\p202_s35.png"}
+{"prompt_id": 203, "prompt": "a majestic eagle soaring over canyon", "steps": 45, "clipscore": 0.32912150025367737, "latency_s": 8.846089124679565, "image": "tmp_images\\p203_s45.png"}
+{"prompt_id": 204, "prompt": "a Victorian haunted mansion at night", "steps": 25, "clipscore": 0.32604268193244934, "latency_s": 5.41200590133667, "image": "tmp_images\\p204_s25.png"}
+{"prompt_id": 205, "prompt": "a tranquil bamboo forest in morning mist", "steps": 25, "clipscore": 0.36526891589164734, "latency_s": 5.444025278091431, "image": "tmp_images\\p205_s25.png"}
+{"prompt_id": 206, "prompt": "a space station orbiting a distant planet", "steps": 45, "clipscore": 0.2894900143146515, "latency_s": 8.854546308517456, "image": "tmp_images\\p206_s45.png"}
+{"prompt_id": 207, "prompt": "a colorful hot air balloon festival", "steps": 45, "clipscore": 0.35214465856552124, "latency_s": 8.960929870605469, "image": "tmp_images\\p207_s45.png"}
+{"prompt_id": 208, "prompt": "a detailed mechanical watch movement", "steps": 35, "clipscore": 0.328712522983551, "latency_s": 7.245694637298584, "image": "tmp_images\\p208_s35.png"}
+{"prompt_id": 209, "prompt": "a traditional Arabian bazaar scene", "steps": 25, "clipscore": 0.3190374970436096, "latency_s": 5.457658767700195, "image": "tmp_images\\p209_s25.png"}
+{"prompt_id": 210, "prompt": "a peaceful winter village at night", "steps": 35, "clipscore": 0.32493704557418823, "latency_s": 7.39994478225708, "image": "tmp_images\\p210_s35.png"}
+{"prompt_id": 211, "prompt": "an art studio with easels and paintings", "steps": 35, "clipscore": 0.329573392868042, "latency_s": 7.27262544631958, "image": "tmp_images\\p211_s35.png"}
+{"prompt_id": 212, "prompt": "a rustic farmhouse kitchen at dawn", "steps": 45, "clipscore": 0.3316766023635864, "latency_s": 9.029694080352783, "image": "tmp_images\\p212_s45.png"}
+{"prompt_id": 213, "prompt": "a herd of wild horses running free", "steps": 45, "clipscore": 0.31969931721687317, "latency_s": 9.07811427116394, "image": "tmp_images\\p213_s45.png"}
+{"prompt_id": 214, "prompt": "a bioluminescent beach at midnight", "steps": 25, "clipscore": 0.32352593541145325, "latency_s": 5.575524091720581, "image": "tmp_images\\p214_s25.png"}
+{"prompt_id": 215, "prompt": "a traditional Chinese garden bridge", "steps": 25, "clipscore": 0.31982550024986267, "latency_s": 5.502134561538696, "image": "tmp_images\\p215_s25.png"}
+{"prompt_id": 216, "prompt": "a futuristic laboratory interior", "steps": 35, "clipscore": 0.32030731439590454, "latency_s": 7.275055646896362, "image": "tmp_images\\p216_s35.png"}
+{"prompt_id": 217, "prompt": "a vintage train station platform", "steps": 45, "clipscore": 0.3051180839538574, "latency_s": 8.998816967010498, "image": "tmp_images\\p217_s45.png"}
+{"prompt_id": 218, "prompt": "a mystical forest portal glowing", "steps": 45, "clipscore": 0.3375682830810547, "latency_s": 9.09776782989502, "image": "tmp_images\\p218_s45.png"}
+{"prompt_id": 219, "prompt": "a Mediterranean coastal village", "steps": 45, "clipscore": 0.3063453137874603, "latency_s": 9.086276769638062, "image": "tmp_images\\p219_s45.png"}
+{"prompt_id": 220, "prompt": "a grand piano in concert hall", "steps": 25, "clipscore": 0.32949593663215637, "latency_s": 5.591159343719482, "image": "tmp_images\\p220_s25.png"}
+{"prompt_id": 221, "prompt": "a desert canyon at golden hour", "steps": 25, "clipscore": 0.3141461908817291, "latency_s": 5.663285493850708, "image": "tmp_images\\p221_s25.png"}
+{"prompt_id": 222, "prompt": "an underwater ruins discovery", "steps": 45, "clipscore": 0.3185325562953949, "latency_s": 9.08550500869751, "image": "tmp_images\\p222_s45.png"}
+{"prompt_id": 223, "prompt": "a blooming cherry blossom park", "steps": 45, "clipscore": 0.3152633309364319, "latency_s": 9.038910865783691, "image": "tmp_images\\p223_s45.png"}
+{"prompt_id": 224, "prompt": "a steaming cup of coffee with pastries", "steps": 45, "clipscore": 0.3291023075580597, "latency_s": 9.146586656570435, "image": "tmp_images\\p224_s45.png"}
+{"prompt_id": 225, "prompt": "a fantasy crystal cave with gems", "steps": 25, "clipscore": 0.32465261220932007, "latency_s": 5.559460401535034, "image": "tmp_images\\p225_s25.png"}
+{"prompt_id": 226, "prompt": "a traditional Irish pub interior", "steps": 35, "clipscore": 0.33063414692878723, "latency_s": 7.293365240097046, "image": "tmp_images\\p226_s35.png"}
+{"prompt_id": 227, "prompt": "a floating city in the clouds", "steps": 25, "clipscore": 0.3177362382411957, "latency_s": 5.543552875518799, "image": "tmp_images\\p227_s25.png"}
+{"prompt_id": 228, "prompt": "a peaceful mountain stream", "steps": 45, "clipscore": 0.3160650432109833, "latency_s": 9.085664987564087, "image": "tmp_images\\p228_s45.png"}
+{"prompt_id": 229, "prompt": "a historical Viking longship", "steps": 45, "clipscore": 0.3504362404346466, "latency_s": 9.290725708007812, "image": "tmp_images\\p229_s45.png"}
+{"prompt_id": 230, "prompt": "a modern minimalist apartment", "steps": 25, "clipscore": 0.3036666810512543, "latency_s": 5.641356706619263, "image": "tmp_images\\p230_s25.png"}
+{"prompt_id": 231, "prompt": "a magical wizard's library", "steps": 25, "clipscore": 0.32394060492515564, "latency_s": 5.511475324630737, "image": "tmp_images\\p231_s25.png"}
+{"prompt_id": 232, "prompt": "a traditional Indian wedding", "steps": 25, "clipscore": 0.3119341731071472, "latency_s": 5.629661321640015, "image": "tmp_images\\p232_s25.png"}
+{"prompt_id": 233, "prompt": "a retro gaming arcade room", "steps": 35, "clipscore": 0.3241441249847412, "latency_s": 7.269837141036987, "image": "tmp_images\\p233_s35.png"}
+{"prompt_id": 234, "prompt": "a peaceful lavender field", "steps": 35, "clipscore": 0.33655786514282227, "latency_s": 7.254494905471802, "image": "tmp_images\\p234_s35.png"}
+{"prompt_id": 235, "prompt": "a futuristic subway station", "steps": 25, "clipscore": 0.31904876232147217, "latency_s": 5.647727966308594, "image": "tmp_images\\p235_s25.png"}
+{"prompt_id": 236, "prompt": "a traditional African village", "steps": 25, "clipscore": 0.32668936252593994, "latency_s": 5.5482141971588135, "image": "tmp_images\\p236_s25.png"}
+{"prompt_id": 237, "prompt": "a wild west saloon interior", "steps": 25, "clipscore": 0.3145504295825958, "latency_s": 5.589186906814575, "image": "tmp_images\\p237_s25.png"}
+{"prompt_id": 238, "prompt": "a tropical beach at sunset", "steps": 35, "clipscore": 0.3079794645309448, "latency_s": 7.31920599937439, "image": "tmp_images\\p238_s35.png"}
+{"prompt_id": 239, "prompt": "a medieval blacksmith forge", "steps": 25, "clipscore": 0.3083001971244812, "latency_s": 5.530187129974365, "image": "tmp_images\\p239_s25.png"}
+{"prompt_id": 240, "prompt": "a busy sushi restaurant", "steps": 35, "clipscore": 0.3066696524620056, "latency_s": 7.4367852210998535, "image": "tmp_images\\p240_s35.png"}
+{"prompt_id": 241, "prompt": "a magical potion shop", "steps": 25, "clipscore": 0.34309765696525574, "latency_s": 5.519899845123291, "image": "tmp_images\\p241_s25.png"}
+{"prompt_id": 242, "prompt": "a industrial loft space", "steps": 45, "clipscore": 0.3096720576286316, "latency_s": 9.018158197402954, "image": "tmp_images\\p242_s45.png"}
+{"prompt_id": 243, "prompt": "a zen meditation room", "steps": 35, "clipscore": 0.32993435859680176, "latency_s": 7.312759637832642, "image": "tmp_images\\p243_s35.png"}
+{"prompt_id": 244, "prompt": "a carnival at night", "steps": 45, "clipscore": 0.315965861082077, "latency_s": 9.09430742263794, "image": "tmp_images\\p244_s45.png"}
+{"prompt_id": 245, "prompt": "a greenhouse garden", "steps": 25, "clipscore": 0.3190860450267792, "latency_s": 5.520746946334839, "image": "tmp_images\\p245_s25.png"}
+{"prompt_id": 246, "prompt": "a post-apocalyptic city", "steps": 35, "clipscore": 0.3159995377063751, "latency_s": 7.41610050201416, "image": "tmp_images\\p246_s35.png"}
+{"prompt_id": 247, "prompt": "a winter ice castle", "steps": 25, "clipscore": 0.3457137942314148, "latency_s": 5.630387783050537, "image": "tmp_images\\p247_s25.png"}
+{"prompt_id": 248, "prompt": "a pet grooming salon", "steps": 25, "clipscore": 0.3652818500995636, "latency_s": 5.572350978851318, "image": "tmp_images\\p248_s25.png"}
+{"prompt_id": 249, "prompt": "a tribal ceremony", "steps": 25, "clipscore": 0.2941894829273224, "latency_s": 5.67964768409729, "image": "tmp_images\\p249_s25.png"}
+{"prompt_id": 250, "prompt": "a vintage cinema", "steps": 25, "clipscore": 0.25347140431404114, "latency_s": 5.575610876083374, "image": "tmp_images\\p250_s25.png"}
+{"prompt_id": 251, "prompt": "a ballet studio", "steps": 35, "clipscore": 0.3227827847003937, "latency_s": 7.375112533569336, "image": "tmp_images\\p251_s35.png"}
+{"prompt_id": 252, "prompt": "a jungle temple", "steps": 25, "clipscore": 0.3174615502357483, "latency_s": 5.547943115234375, "image": "tmp_images\\p252_s25.png"}
+{"prompt_id": 253, "prompt": "a robot factory", "steps": 25, "clipscore": 0.2843695282936096, "latency_s": 5.562225580215454, "image": "tmp_images\\p253_s25.png"}
+{"prompt_id": 254, "prompt": "a space colony", "steps": 45, "clipscore": 0.2995130121707916, "latency_s": 9.141244173049927, "image": "tmp_images\\p254_s45.png"}
+{"prompt_id": 255, "prompt": "a rustic barn", "steps": 45, "clipscore": 0.31135058403015137, "latency_s": 9.171379089355469, "image": "tmp_images\\p255_s45.png"}
+{"prompt_id": 256, "prompt": "a neon city", "steps": 25, "clipscore": 0.3301868438720703, "latency_s": 5.626831531524658, "image": "tmp_images\\p256_s25.png"}
+{"prompt_id": 257, "prompt": "a tea house", "steps": 25, "clipscore": 0.29797253012657166, "latency_s": 5.6060521602630615, "image": "tmp_images\\p257_s25.png"}
+{"prompt_id": 258, "prompt": "a bird sanctuary", "steps": 25, "clipscore": 0.2562599778175354, "latency_s": 5.575911521911621, "image": "tmp_images\\p258_s25.png"}
+{"prompt_id": 259, "prompt": "a crystal palace", "steps": 45, "clipscore": 0.3136427402496338, "latency_s": 9.07930588722229, "image": "tmp_images\\p259_s45.png"}
+{"prompt_id": 260, "prompt": "a street food market", "steps": 45, "clipscore": 0.3137212097644806, "latency_s": 9.119080781936646, "image": "tmp_images\\p260_s45.png"}
+{"prompt_id": 261, "prompt": "a subway platform", "steps": 25, "clipscore": 0.3185095489025116, "latency_s": 5.566127061843872, "image": "tmp_images\\p261_s25.png"}
+{"prompt_id": 262, "prompt": "a gothic cathedral", "steps": 35, "clipscore": 0.3085119128227234, "latency_s": 7.322208642959595, "image": "tmp_images\\p262_s35.png"}
+{"prompt_id": 263, "prompt": "a windmill farm", "steps": 25, "clipscore": 0.32832181453704834, "latency_s": 5.639348983764648, "image": "tmp_images\\p263_s25.png"}
+{"prompt_id": 264, "prompt": "a polar research station", "steps": 35, "clipscore": 0.3345102071762085, "latency_s": 7.385518550872803, "image": "tmp_images\\p264_s35.png"}
+{"prompt_id": 265, "prompt": "a treehouse village", "steps": 25, "clipscore": 0.33808913826942444, "latency_s": 5.550277471542358, "image": "tmp_images\\p265_s25.png"}
+{"prompt_id": 266, "prompt": "a underground bunker", "steps": 35, "clipscore": 0.3126980662345886, "latency_s": 7.3021159172058105, "image": "tmp_images\\p266_s35.png"}
+{"prompt_id": 267, "prompt": "a mountain monastery", "steps": 45, "clipscore": 0.3042093813419342, "latency_s": 9.086861610412598, "image": "tmp_images\\p267_s45.png"}
+{"prompt_id": 268, "prompt": "a desert ghost town", "steps": 25, "clipscore": 0.28911176323890686, "latency_s": 5.55454683303833, "image": "tmp_images\\p268_s25.png"}
+{"prompt_id": 269, "prompt": "a futuristic gym", "steps": 45, "clipscore": 0.3296779692173004, "latency_s": 9.150707006454468, "image": "tmp_images\\p269_s45.png"}
+{"prompt_id": 270, "prompt": "a vintage bookstore", "steps": 35, "clipscore": 0.30877819657325745, "latency_s": 7.307276487350464, "image": "tmp_images\\p270_s35.png"}
+{"prompt_id": 271, "prompt": "a space garden", "steps": 25, "clipscore": 0.3117237091064453, "latency_s": 5.53525710105896, "image": "tmp_images\\p271_s25.png"}
+{"prompt_id": 272, "prompt": "a rock concert", "steps": 45, "clipscore": 0.29247036576271057, "latency_s": 9.088670253753662, "image": "tmp_images\\p272_s45.png"}
+{"prompt_id": 273, "prompt": "a tiki bar", "steps": 25, "clipscore": 0.31547245383262634, "latency_s": 5.534828186035156, "image": "tmp_images\\p273_s25.png"}
+{"prompt_id": 274, "prompt": "a zen spa", "steps": 35, "clipscore": 0.3016929030418396, "latency_s": 7.3902809619903564, "image": "tmp_images\\p274_s35.png"}
+{"prompt_id": 275, "prompt": "a clock tower", "steps": 35, "clipscore": 0.3373848497867584, "latency_s": 7.26500391960144, "image": "tmp_images\\p275_s35.png"}
+{"prompt_id": 276, "prompt": "a food truck", "steps": 25, "clipscore": 0.3000507652759552, "latency_s": 5.49328351020813, "image": "tmp_images\\p276_s25.png"}
+{"prompt_id": 277, "prompt": "a pixel art scene", "steps": 35, "clipscore": 0.3036832809448242, "latency_s": 7.241806983947754, "image": "tmp_images\\p277_s35.png"}
+{"prompt_id": 278, "prompt": "a jazz club", "steps": 35, "clipscore": 0.34327805042266846, "latency_s": 7.296972751617432, "image": "tmp_images\\p278_s35.png"}
+{"prompt_id": 279, "prompt": "a ski lodge", "steps": 25, "clipscore": 0.3214547038078308, "latency_s": 5.532828330993652, "image": "tmp_images\\p279_s25.png"}
+{"prompt_id": 280, "prompt": "a beach hut", "steps": 45, "clipscore": 0.32946324348449707, "latency_s": 9.121039867401123, "image": "tmp_images\\p280_s45.png"}
+{"prompt_id": 281, "prompt": "a candy shop", "steps": 25, "clipscore": 0.3020947575569153, "latency_s": 5.6416096687316895, "image": "tmp_images\\p281_s25.png"}
+{"prompt_id": 282, "prompt": "a art gallery", "steps": 45, "clipscore": 0.2861669361591339, "latency_s": 9.17477822303772, "image": "tmp_images\\p282_s45.png"}
+{"prompt_id": 283, "prompt": "a wine cellar", "steps": 45, "clipscore": 0.34697040915489197, "latency_s": 9.13121771812439, "image": "tmp_images\\p283_s45.png"}
+{"prompt_id": 284, "prompt": "a train cabin", "steps": 45, "clipscore": 0.32360538840293884, "latency_s": 9.15014100074768, "image": "tmp_images\\p284_s45.png"}
+{"prompt_id": 285, "prompt": "a circus tent", "steps": 45, "clipscore": 0.3606914281845093, "latency_s": 9.05756425857544, "image": "tmp_images\\p285_s45.png"}
+{"prompt_id": 286, "prompt": "a game room", "steps": 35, "clipscore": 0.33192309737205505, "latency_s": 7.332953214645386, "image": "tmp_images\\p286_s35.png"}
+{"prompt_id": 287, "prompt": "a herb garden", "steps": 35, "clipscore": 0.3118179142475128, "latency_s": 7.242322206497192, "image": "tmp_images\\p287_s35.png"}
+{"prompt_id": 288, "prompt": "a koi pond", "steps": 35, "clipscore": 0.34269899129867554, "latency_s": 7.273549795150757, "image": "tmp_images\\p288_s35.png"}
+{"prompt_id": 289, "prompt": "a yoga studio", "steps": 35, "clipscore": 0.31764960289001465, "latency_s": 7.2667388916015625, "image": "tmp_images\\p289_s35.png"}
+{"prompt_id": 290, "prompt": "a war room", "steps": 25, "clipscore": 0.2687895596027374, "latency_s": 5.514322519302368, "image": "tmp_images\\p290_s25.png"}
+{"prompt_id": 291, "prompt": "a surf shack", "steps": 35, "clipscore": 0.31444013118743896, "latency_s": 7.33711314201355, "image": "tmp_images\\p291_s35.png"}
+{"prompt_id": 292, "prompt": "a doll house", "steps": 45, "clipscore": 0.339287132024765, "latency_s": 9.075745820999146, "image": "tmp_images\\p292_s45.png"}
+{"prompt_id": 293, "prompt": "a maze garden", "steps": 45, "clipscore": 0.34852179884910583, "latency_s": 9.049607276916504, "image": "tmp_images\\p293_s45.png"}
+{"prompt_id": 294, "prompt": "a tool shed", "steps": 45, "clipscore": 0.270494669675827, "latency_s": 9.09531307220459, "image": "tmp_images\\p294_s45.png"}
+{"prompt_id": 295, "prompt": "a ice rink", "steps": 25, "clipscore": 0.31936538219451904, "latency_s": 5.539289712905884, "image": "tmp_images\\p295_s25.png"}
+{"prompt_id": 296, "prompt": "a bike shop", "steps": 45, "clipscore": 0.3138035535812378, "latency_s": 9.125438690185547, "image": "tmp_images\\p296_s45.png"}
+{"prompt_id": 297, "prompt": "a bank vault", "steps": 35, "clipscore": 0.26661986112594604, "latency_s": 7.304979085922241, "image": "tmp_images\\p297_s35.png"}
+{"prompt_id": 298, "prompt": "a dance floor", "steps": 25, "clipscore": 0.32046347856521606, "latency_s": 5.5492823123931885, "image": "tmp_images\\p298_s25.png"}
+{"prompt_id": 299, "prompt": "a park bench", "steps": 25, "clipscore": 0.32743650674819946, "latency_s": 5.533468961715698, "image": "tmp_images\\p299_s25.png"}
+{"prompt_id": 300, "prompt": "a control room", "steps": 45, "clipscore": 0.3288945257663727, "latency_s": 9.085592985153198, "image": "tmp_images\\p300_s45.png"}
+{"prompt_id": 301, "prompt": "a music store", "steps": 45, "clipscore": 0.2949084937572479, "latency_s": 9.072443962097168, "image": "tmp_images\\p301_s45.png"}
+{"prompt_id": 302, "prompt": "a dojo", "steps": 45, "clipscore": 0.3248806893825531, "latency_s": 9.05600118637085, "image": "tmp_images\\p302_s45.png"}
+{"prompt_id": 303, "prompt": "a lab", "steps": 35, "clipscore": 0.26809340715408325, "latency_s": 7.432548522949219, "image": "tmp_images\\p303_s35.png"}
+{"prompt_id": 304, "prompt": "a rooftop pool", "steps": 45, "clipscore": 0.29625841975212097, "latency_s": 9.093103885650635, "image": "tmp_images\\p304_s45.png"}
+{"prompt_id": 305, "prompt": "a subway car", "steps": 45, "clipscore": 0.3408993184566498, "latency_s": 9.10478687286377, "image": "tmp_images\\p305_s45.png"}
+{"prompt_id": 306, "prompt": "a pizza place", "steps": 45, "clipscore": 0.31680774688720703, "latency_s": 9.081676721572876, "image": "tmp_images\\p306_s45.png"}
+{"prompt_id": 307, "prompt": "a bus stop", "steps": 45, "clipscore": 0.29211464524269104, "latency_s": 9.200037717819214, "image": "tmp_images\\p307_s45.png"}
+{"prompt_id": 308, "prompt": "a chess club", "steps": 25, "clipscore": 0.28167691826820374, "latency_s": 5.66655158996582, "image": "tmp_images\\p308_s25.png"}
+{"prompt_id": 309, "prompt": "a zen garden", "steps": 45, "clipscore": 0.3508893847465515, "latency_s": 9.026209354400635, "image": "tmp_images\\p309_s45.png"}
+{"prompt_id": 310, "prompt": "a car wash", "steps": 35, "clipscore": 0.2689827084541321, "latency_s": 7.279247999191284, "image": "tmp_images\\p310_s35.png"}
+{"prompt_id": 311, "prompt": "a food court", "steps": 35, "clipscore": 0.3083561658859253, "latency_s": 7.407637357711792, "image": "tmp_images\\p311_s35.png"}
+{"prompt_id": 312, "prompt": "a boat dock", "steps": 25, "clipscore": 0.31707701086997986, "latency_s": 5.572946310043335, "image": "tmp_images\\p312_s25.png"}
+{"prompt_id": 313, "prompt": "a pet shop", "steps": 35, "clipscore": 0.29416424036026, "latency_s": 7.281240463256836, "image": "tmp_images\\p313_s35.png"}
+{"prompt_id": 314, "prompt": "a gym", "steps": 45, "clipscore": 0.276179701089859, "latency_s": 9.077873468399048, "image": "tmp_images\\p314_s45.png"}
+{"prompt_id": 315, "prompt": "a spa", "steps": 45, "clipscore": 0.28494933247566223, "latency_s": 9.020031929016113, "image": "tmp_images\\p315_s45.png"}
+{"prompt_id": 316, "prompt": "a greenhouse interior", "steps": 35, "clipscore": 0.3288220167160034, "latency_s": 7.253825664520264, "image": "tmp_images\\p316_s35.png"}
+{"prompt_id": 317, "prompt": "a magical forest clearing", "steps": 45, "clipscore": 0.2904769778251648, "latency_s": 9.013330698013306, "image": "tmp_images\\p317_s45.png"}
+{"prompt_id": 318, "prompt": "a vintage record store", "steps": 35, "clipscore": 0.3210744261741638, "latency_s": 7.243135690689087, "image": "tmp_images\\p318_s35.png"}
+{"prompt_id": 319, "prompt": "a modern art museum", "steps": 35, "clipscore": 0.25992920994758606, "latency_s": 7.332037687301636, "image": "tmp_images\\p319_s35.png"}
+{"prompt_id": 320, "prompt": "a tropical waterfall", "steps": 25, "clipscore": 0.326645165681839, "latency_s": 5.5252366065979, "image": "tmp_images\\p320_s25.png"}
+{"prompt_id": 321, "prompt": "a snowy mountain peak", "steps": 25, "clipscore": 0.2884780168533325, "latency_s": 5.550168037414551, "image": "tmp_images\\p321_s25.png"}
+{"prompt_id": 322, "prompt": "a desert oasis sunset", "steps": 35, "clipscore": 0.3059748113155365, "latency_s": 7.451863527297974, "image": "tmp_images\\p322_s35.png"}
+{"prompt_id": 323, "prompt": "a busy city intersection", "steps": 45, "clipscore": 0.2973794639110565, "latency_s": 9.130789756774902, "image": "tmp_images\\p323_s45.png"}
+{"prompt_id": 324, "prompt": "a peaceful garden pond", "steps": 25, "clipscore": 0.3327927887439728, "latency_s": 5.530218839645386, "image": "tmp_images\\p324_s25.png"}
+{"prompt_id": 325, "prompt": "a steampunk workshop", "steps": 35, "clipscore": 0.34065359830856323, "latency_s": 7.275590181350708, "image": "tmp_images\\p325_s35.png"}
+{"prompt_id": 326, "prompt": "a crystal cave system", "steps": 35, "clipscore": 0.31023967266082764, "latency_s": 7.3874428272247314, "image": "tmp_images\\p326_s35.png"}
+{"prompt_id": 327, "prompt": "a medieval tavern", "steps": 25, "clipscore": 0.33106672763824463, "latency_s": 5.702057600021362, "image": "tmp_images\\p327_s25.png"}
+{"prompt_id": 328, "prompt": "a space dock bay", "steps": 25, "clipscore": 0.2746640741825104, "latency_s": 5.558774709701538, "image": "tmp_images\\p328_s25.png"}
+{"prompt_id": 329, "prompt": "a rustic cabin", "steps": 25, "clipscore": 0.30528709292411804, "latency_s": 5.5706422328948975, "image": "tmp_images\\p329_s25.png"}
+{"prompt_id": 330, "prompt": "a neon alley", "steps": 35, "clipscore": 0.32803621888160706, "latency_s": 7.256623268127441, "image": "tmp_images\\p330_s35.png"}
+{"prompt_id": 331, "prompt": "a zen temple", "steps": 25, "clipscore": 0.2957633137702942, "latency_s": 5.527146816253662, "image": "tmp_images\\p331_s25.png"}
+{"prompt_id": 332, "prompt": "a magic shop", "steps": 45, "clipscore": 0.3025592863559723, "latency_s": 9.13293743133545, "image": "tmp_images\\p332_s45.png"}
+{"prompt_id": 333, "prompt": "a food hall", "steps": 45, "clipscore": 0.3240956664085388, "latency_s": 9.078994750976562, "image": "tmp_images\\p333_s45.png"}
+{"prompt_id": 334, "prompt": "a bike path", "steps": 35, "clipscore": 0.2911691665649414, "latency_s": 7.275639057159424, "image": "tmp_images\\p334_s35.png"}
+{"prompt_id": 335, "prompt": "a sky lounge", "steps": 45, "clipscore": 0.3183853030204773, "latency_s": 9.105408430099487, "image": "tmp_images\\p335_s45.png"}
+{"prompt_id": 336, "prompt": "a tree house", "steps": 45, "clipscore": 0.3539208173751831, "latency_s": 9.029045820236206, "image": "tmp_images\\p336_s45.png"}
+{"prompt_id": 337, "prompt": "a beach bar", "steps": 35, "clipscore": 0.334558367729187, "latency_s": 7.301736116409302, "image": "tmp_images\\p337_s35.png"}
+{"prompt_id": 338, "prompt": "a cat cafe", "steps": 35, "clipscore": 0.3137112855911255, "latency_s": 7.385096549987793, "image": "tmp_images\\p338_s35.png"}
+{"prompt_id": 339, "prompt": "a fish tank", "steps": 35, "clipscore": 0.3136700689792633, "latency_s": 7.3034398555755615, "image": "tmp_images\\p339_s35.png"}
+{"prompt_id": 340, "prompt": "a ice cave", "steps": 35, "clipscore": 0.32226133346557617, "latency_s": 7.432763576507568, "image": "tmp_images\\p340_s35.png"}
+{"prompt_id": 341, "prompt": "a zen room", "steps": 25, "clipscore": 0.3221404254436493, "latency_s": 5.519216299057007, "image": "tmp_images\\p341_s25.png"}
+{"prompt_id": 342, "prompt": "a mall", "steps": 45, "clipscore": 0.2865530550479889, "latency_s": 9.08175802230835, "image": "tmp_images\\p342_s45.png"}
+{"prompt_id": 343, "prompt": "a dock", "steps": 45, "clipscore": 0.30203038454055786, "latency_s": 9.10988974571228, "image": "tmp_images\\p343_s45.png"}
+{"prompt_id": 344, "prompt": "a cave", "steps": 25, "clipscore": 0.2886192202568054, "latency_s": 5.572101354598999, "image": "tmp_images\\p344_s25.png"}
+{"prompt_id": 345, "prompt": "a pond", "steps": 35, "clipscore": 0.27623075246810913, "latency_s": 7.279425621032715, "image": "tmp_images\\p345_s35.png"}

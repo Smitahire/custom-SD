@@ -1,0 +1,48 @@
+:: Windows PowerShell friendly full-run script for the project
+:: Create and activate virtualenv (PowerShell)
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+
+:: 1) Generate small labels set
+python -m label_generation.label_generation_small --prompts data/prompts.txt --out data/labels_small.jsonl
+
+:: 2) Precompute CLIP text embeddings
+python utils/build_embeddings.py --prompts data/prompts.txt --out data/embeddings.npy --ids_out data/prompt_ids.json
+
+:: 3) Train multiple ANS variants (tiny MLP, deep MLP, transformer, xgboost)
+python ans_model/train_ans.py --model_type tiny_mlp --labels data/labels_small.jsonl --embeddings data/embeddings.npy --ids data/prompt_ids.json --out ans_model/ans_steps_tiny_mlp.pt --debug
+python ans_model/train_ans.py --model_type deep_mlp --hidden_dim 1024 --labels data/labels_small.jsonl --embeddings data/embeddings.npy --ids data/prompt_ids.json --out ans_model/ans_steps_deep_mlp.pt --debug
+python ans_model/train_ans.py --model_type transformer --hidden_dim 256 --labels data/labels_small.jsonl --embeddings data/embeddings.npy --ids data/prompt_ids.json --out ans_model/ans_steps_transformer.pt --debug
+python ans_model/train_ans.py --model_type xgboost --labels data/labels_small.jsonl --embeddings data/embeddings.npy --ids data/prompt_ids.json --out ans_model/ans_steps_xgboost.pkl --debug
+
+:: 4) Generate images using a chosen ANS model (if torch checkpoint, pass --ans_model_type; for joblib .pkl it's auto-detected)
+python evaluation/predict_and_generate.py --prompts data/test_prompts.txt --ans ans_model/ans_steps_tiny_mlp.pt --ans_model_type tiny_mlp --out_dir outputs_ans_tiny
+python evaluation/predict_and_generate.py --prompts data/test_prompts.txt --ans ans_model/ans_steps_deep_mlp.pt --ans_model_type deep_mlp --out_dir outputs_ans_deep
+python evaluation/predict_and_generate.py --prompts data/test_prompts.txt --ans ans_model/ans_steps_transformer.pt --ans_model_type transformer --out_dir outputs_ans_transformer
+python evaluation/predict_and_generate.py --prompts data/test_prompts.txt --ans ans_model/ans_steps_xgboost.pkl --out_dir outputs_ans_xgboost
+
+:: 5) Optional CLIPScore checks
+python evaluation/compute_clipscore.py --prompts data/test_prompts.txt --images_dir outputs_ans_tiny --out results_ans_tiny.json
+python evaluation/compute_clipscore.py --prompts data/test_prompts.txt --images_dir outputs_ans_deep --out results_ans_deep.json
+python evaluation/compute_clipscore.py --prompts data/test_prompts.txt --images_dir outputs_ans_transformer --out results_ans_transformer.json
+python evaluation/compute_clipscore.py --prompts data/test_prompts.txt --images_dir outputs_ans_xgboost --out results_ans_xgboost.json
+
+new scripts 
+
+cd "C:\Users\ahire\PROGRAMING\Stable diffusion 1.5\ans_minimal - Copy"
+
+# (1) Install deps if needed
+python -m pip install -r requirements.txt
+pip install xgboost joblib
+
+# (2) Train Tiny MLP (labels derived as best CLIP per prompt):
+python train_features.py --features data/results_features.jsonl --out ans_model/ans_steps_features_tiny_mlp.pth --model_type tiny_mlp --label_mode best_clip --epochs 20 --batch_size 64
+
+# OR train XGBoost:
+python train_features.py --features data/results_features.jsonl --out ans_model/ans_steps_features_xgb.joblib --model_type xgboost --label_mode best_clip
+
+# (3) Predict (using saved model):
+python predict_features.py --features data/results_features.jsonl --model ans_model/ans_steps_features_xgb.joblib --out predictions.jsonl
+# OR for NN:
+python predict_features.py --features data/results_features.jsonl --model ans_model/ans_steps_features_tiny_mlp.pth --out predictions.jsonl
