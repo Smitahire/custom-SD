@@ -1,0 +1,42 @@
+Model: deep_mlp
+Pred file: predictions_by_model\predictions_deep_mlp.jsonl
+Samples compared: 200
+Accuracy: 0.3250
+
+Classification report (dict):
+{
+  "0": {
+    "precision": 0.2923076923076923,
+    "recall": 0.25333333333333335,
+    "f1-score": 0.2714285714285714,
+    "support": 75.0
+  },
+  "1": {
+    "precision": 0.3188405797101449,
+    "recall": 0.36065573770491804,
+    "f1-score": 0.3384615384615385,
+    "support": 61.0
+  },
+  "2": {
+    "precision": 0.36363636363636365,
+    "recall": 0.375,
+    "f1-score": 0.36923076923076925,
+    "support": 64.0
+  },
+  "accuracy": 0.325,
+  "macro avg": {
+    "precision": 0.3249282118847336,
+    "recall": 0.32966302367941713,
+    "f1-score": 0.3263736263736264,
+    "support": 200.0
+  },
+  "weighted avg": {
+    "precision": 0.32322539779061515,
+    "recall": 0.325,
+    "f1-score": 0.32317032967032966,
+    "support": 200.0
+  }
+}
+
+Confusion matrix:
+[[19, 34, 22], [19, 22, 20], [27, 13, 24]]

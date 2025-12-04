@@ -1,0 +1,6 @@
+{
+  "model_path": "ans_model\\ans_steps_features_xgboost.joblib",
+  "model_type": "xgboost",
+  "input_dim": 15,
+  "n_samples": 200
+}

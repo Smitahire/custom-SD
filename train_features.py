@@ -103,45 +103,143 @@ def prepare_dataset(features_jsonl, label_mode='best_clip', external_labels=None
     return np.stack(X_list), np.array(y_list), meta
 
 def train_nn(model, X_train, y_train, X_val, y_val, args):
+    """
+    Neural network training with:
+    - WeightedRandomSampler to balance classes during training
+    - Class-weighted CrossEntropyLoss
+    - Gradient clipping and smaller lr
+    """
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = model.to(device)
-    opt = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
-    crit = nn.CrossEntropyLoss()
-    best_val = -1.0; best_state = None
+
+    # PyTorch DataLoader + WeightedRandomSampler
+    from torch.utils.data import TensorDataset, DataLoader, WeightedRandomSampler
+    X_train_t = torch.tensor(X_train, dtype=torch.float32)
+    y_train_t = torch.tensor(y_train, dtype=torch.long)
+    X_val_t = torch.tensor(X_val, dtype=torch.float32)
+    y_val_t = torch.tensor(y_val, dtype=torch.long)
+
+    # compute class counts and class weights (inverse frequency)
+    classes, counts = np.unique(y_train, return_counts=True)
+    class_counts = {int(c): int(n) for c, n in zip(classes, counts)}
+    total = float(len(y_train))
+    # class_weights dict: larger weight for low-frequency classes
+    class_weights = {int(c): total / (len(classes) * int(n)) for c, n in zip(classes, counts)}
+
+    # per-sample weights for sampler
+    sample_weights = [class_weights[int(y)] for y in y_train]
+    sampler = WeightedRandomSampler(sample_weights, num_samples=len(sample_weights), replacement=True)
+
+    train_ds = TensorDataset(X_train_t, y_train_t)
+    val_ds = TensorDataset(X_val_t, y_val_t)
+
+    train_loader = DataLoader(train_ds, batch_size=args.batch_size, sampler=sampler)
+    val_loader = DataLoader(val_ds, batch_size=args.batch_size, shuffle=False)
+
+    # build class-weight tensor for loss (ensure length == number of STEP_BINS)
+    num_classes = len(STEP_BINS)
+    cw = torch.ones(num_classes, dtype=torch.float32)
+    for k, v in class_weights.items():
+        if int(k) < len(cw):
+            cw[int(k)] = float(v)
+    cw = cw.to(device)
+
+    # optimizer and loss (slightly lower lr)
+    opt = torch.optim.AdamW(model.parameters(), lr=max(1e-4, args.lr / 2), weight_decay=args.weight_decay)
+    crit = nn.CrossEntropyLoss(weight=cw)
+
+    best_val = -1.0
+    best_state = None
+
     for epoch in range(args.epochs):
         model.train()
-        perm = np.random.permutation(len(X_train))
         total_loss = 0.0
-        for i in range(0, len(X_train), args.batch_size):
-            idx = perm[i:i+args.batch_size]
-            xb = torch.tensor(X_train[idx], dtype=torch.float32, device=device)
-            yb = torch.tensor(y_train[idx], dtype=torch.long, device=device)
+        for xb, yb in train_loader:
+            xb = xb.to(device)
+            yb = yb.to(device)
+
             opt.zero_grad()
             logits = model(xb)
             loss = crit(logits, yb)
             loss.backward()
+            # gradient clipping to stabilize
+            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
             opt.step()
-            total_loss += loss.item() * len(idx)
-        val_acc, _ = evaluate_model(model, X_val, y_val, device)
-        if val_acc > best_val:
-            best_val = val_acc
-            best_state = model.state_dict()
-            torch.save({'model_type': args.model_type, 'state_dict': best_state, 'input_dim': X_train.shape[1]}, args.out)
-        print(f"Epoch {epoch+1}/{args.epochs} loss={total_loss/len(X_train):.4f} val_acc={val_acc:.4f} best={best_val:.4f}")
-    if best_state is not None:
-        model.load_state_dict(best_state)
-    return best_val, model
+            total_loss += loss.item() * xb.size(0)
 
-def evaluate_model(model, X, y, device='cpu'):
-    if isinstance(model, nn.Module):
+        avg_loss = total_loss / len(train_loader.dataset) if len(train_loader.dataset) > 0 else 0.0
+
+        # validation
         model.eval()
         with torch.no_grad():
-            t = torch.tensor(X, dtype=torch.float32, device=device)
-            logits = model(t)
-            preds = logits.argmax(dim=1).cpu().numpy()
-    else:
+            all_preds = []
+            all_labels = []
+            for xb, yb in val_loader:
+                xb = xb.to(device)
+                yb = yb.to(device)
+                logits = model(xb)
+                preds = logits.argmax(dim=1).cpu().numpy()
+                all_preds.append(preds)
+                all_labels.append(yb.cpu().numpy())
+
+            import numpy as _np
+            if all_preds:
+                all_preds = _np.concatenate(all_preds)
+                all_labels = _np.concatenate(all_labels)
+                acc = float((_np.array(all_preds) == _np.array(all_labels)).mean())
+            else:
+                acc = 0.0
+
+        if acc > best_val:
+            best_val = acc
+            best_state = model.state_dict()
+            # save partial state for safety
+            torch.save({'model_type': args.model_type, 'state_dict': best_state, 'input_dim': X_train.shape[1]}, args.out)
+
+        print(f"Epoch {epoch+1}/{args.epochs} loss={avg_loss:.4f} val_acc={acc:.4f} best={best_val:.4f}")
+
+        if getattr(args, 'debug', False):
+            try:
+                from sklearn.metrics import classification_report, confusion_matrix
+                print("Validation classification report (NN):")
+                print(classification_report(all_labels, all_preds, zero_division=0))
+                print("Confusion matrix:")
+                print(confusion_matrix(all_labels, all_preds))
+            except Exception as e:
+                print("Debug reporting failed:", e)
+
+    if best_state is not None:
+        model.load_state_dict(best_state)
+
+    return best_val, model
+
+def evaluate_model(model, X, y, device=None):
+    """
+    Evaluate model accuracy.
+    Returns (accuracy, predictions_array)
+    Works for both torch nn.Module and sklearn models.
+    """
+    # sklearn / non-torch models
+    if not isinstance(model, nn.Module):
         preds = model.predict(X)
+        return (preds == y).mean(), preds
+
+    # For torch models, infer device if not provided
+    if device is None:
+        try:
+            dev = next(model.parameters()).device
+            device = dev
+        except Exception:
+            device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+    model.eval()
+    with torch.no_grad():
+        x_t = torch.tensor(X, dtype=torch.float32, device=device)
+        logits = model(x_t)
+        preds = logits.argmax(dim=1).cpu().numpy()
     return (preds == y).mean(), preds
+
+
 
 def main():
     p = argparse.ArgumentParser()
@@ -157,6 +255,7 @@ def main():
     p.add_argument('--val_split', type=float, default=0.2)
     p.add_argument('--seed', type=int, default=42)
     p.add_argument('--label_mode', choices=['best_clip','from_labels'], default='best_clip')
+    p.add_argument('--debug', action='store_true')
     args = p.parse_args()
 
     np.random.seed(args.seed)

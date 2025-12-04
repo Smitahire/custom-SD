@@ -1,0 +1,6 @@
+{
+  "model_path": "ans_model\\ans_steps_features_tiny_mlp.pth",
+  "model_type": "tiny_mlp",
+  "input_dim": 15,
+  "n_samples": 200
+}

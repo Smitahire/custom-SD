@@ -1,0 +1,42 @@
+Model: transformer
+Pred file: predictions_by_model\predictions_transformer.jsonl
+Samples compared: 200
+Accuracy: 0.3450
+
+Classification report (dict):
+{
+  "0": {
+    "precision": 0.30985915492957744,
+    "recall": 0.29333333333333333,
+    "f1-score": 0.3013698630136986,
+    "support": 75.0
+  },
+  "1": {
+    "precision": 0.3384615384615385,
+    "recall": 0.36065573770491804,
+    "f1-score": 0.3492063492063492,
+    "support": 61.0
+  },
+  "2": {
+    "precision": 0.390625,
+    "recall": 0.390625,
+    "f1-score": 0.390625,
+    "support": 64.0
+  },
+  "accuracy": 0.345,
+  "macro avg": {
+    "precision": 0.34631523113037194,
+    "recall": 0.3482046903460838,
+    "f1-score": 0.3470670707400159,
+    "support": 200.0
+  },
+  "weighted avg": {
+    "precision": 0.3444279523293608,
+    "recall": 0.345,
+    "f1-score": 0.3445216351380735,
+    "support": 200.0
+  }
+}
+
+Confusion matrix:
+[[22, 33, 20], [20, 22, 19], [29, 10, 25]]

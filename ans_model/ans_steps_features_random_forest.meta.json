@@ -1,0 +1,6 @@
+{
+  "model_path": "ans_model\\ans_steps_features_random_forest.joblib",
+  "model_type": "random_forest",
+  "input_dim": 15,
+  "n_samples": 200
+}

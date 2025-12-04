@@ -1,0 +1,6 @@
+{
+  "model_path": "ans_model\\ans_steps_features_deep_mlp.pth",
+  "model_type": "deep_mlp",
+  "input_dim": 15,
+  "n_samples": 200
+}

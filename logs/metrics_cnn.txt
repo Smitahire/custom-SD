@@ -1,0 +1,42 @@
+Model: cnn
+Pred file: predictions_by_model\predictions_cnn.jsonl
+Samples compared: 200
+Accuracy: 0.3100
+
+Classification report (dict):
+{
+  "0": {
+    "precision": 0.2988505747126437,
+    "recall": 0.3466666666666667,
+    "f1-score": 0.32098765432098764,
+    "support": 75.0
+  },
+  "1": {
+    "precision": 0.3055555555555556,
+    "recall": 0.18032786885245902,
+    "f1-score": 0.2268041237113402,
+    "support": 61.0
+  },
+  "2": {
+    "precision": 0.3246753246753247,
+    "recall": 0.390625,
+    "f1-score": 0.3546099290780142,
+    "support": 64.0
+  },
+  "accuracy": 0.31,
+  "macro avg": {
+    "precision": 0.309693818314508,
+    "recall": 0.30587317850637524,
+    "f1-score": 0.3008005690367807,
+    "support": 200.0
+  },
+  "weighted avg": {
+    "precision": 0.3091595138577897,
+    "recall": 0.31,
+    "f1-score": 0.3030208054072937,
+    "support": 200.0
+  }
+}
+
+Confusion matrix:
+[[26, 17, 32], [30, 11, 20], [31, 8, 25]]

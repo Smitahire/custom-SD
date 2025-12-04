@@ -1,0 +1,6 @@
+{
+  "model_path": "ans_model\\ans_steps_features_cnn.pth",
+  "model_type": "cnn",
+  "input_dim": 15,
+  "n_samples": 200
+}

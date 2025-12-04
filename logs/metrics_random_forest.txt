@@ -1,0 +1,42 @@
+Model: random_forest
+Pred file: predictions_by_model\predictions_random_forest.jsonl
+Samples compared: 200
+Accuracy: 0.3250
+
+Classification report (dict):
+{
+  "0": {
+    "precision": 0.3064516129032258,
+    "recall": 0.25333333333333335,
+    "f1-score": 0.2773722627737226,
+    "support": 75.0
+  },
+  "1": {
+    "precision": 0.30985915492957744,
+    "recall": 0.36065573770491804,
+    "f1-score": 0.3333333333333333,
+    "support": 61.0
+  },
+  "2": {
+    "precision": 0.3582089552238806,
+    "recall": 0.375,
+    "f1-score": 0.366412213740458,
+    "support": 64.0
+  },
+  "accuracy": 0.325,
+  "macro avg": {
+    "precision": 0.32483990768556126,
+    "recall": 0.32966302367941713,
+    "f1-score": 0.32570593661583797,
+    "support": 200.0
+  },
+  "weighted avg": {
+    "precision": 0.3240532627638726,
+    "recall": 0.325,
+    "f1-score": 0.3229331736037592,
+    "support": 200.0
+  }
+}
+
+Confusion matrix:
+[[19, 34, 22], [18, 22, 21], [25, 15, 24]]

@@ -1,0 +1,280 @@
+=== cnn ===
+Samples compared: 200
+Accuracy: 0.3100
+Classification report (dict):
+{
+  "0": {
+    "precision": 0.2988505747126437,
+    "recall": 0.3466666666666667,
+    "f1-score": 0.32098765432098764,
+    "support": 75.0
+  },
+  "1": {
+    "precision": 0.3055555555555556,
+    "recall": 0.18032786885245902,
+    "f1-score": 0.2268041237113402,
+    "support": 61.0
+  },
+  "2": {
+    "precision": 0.3246753246753247,
+    "recall": 0.390625,
+    "f1-score": 0.3546099290780142,
+    "support": 64.0
+  },
+  "accuracy": 0.31,
+  "macro avg": {
+    "precision": 0.309693818314508,
+    "recall": 0.30587317850637524,
+    "f1-score": 0.3008005690367807,
+    "support": 200.0
+  },
+  "weighted avg": {
+    "precision": 0.3091595138577897,
+    "recall": 0.31,
+    "f1-score": 0.3030208054072937,
+    "support": 200.0
+  }
+}
+Confusion matrix:
+[[26, 17, 32], [30, 11, 20], [31, 8, 25]]
+
+=== deep_mlp ===
+Samples compared: 200
+Accuracy: 0.3250
+Classification report (dict):
+{
+  "0": {
+    "precision": 0.2923076923076923,
+    "recall": 0.25333333333333335,
+    "f1-score": 0.2714285714285714,
+    "support": 75.0
+  },
+  "1": {
+    "precision": 0.3188405797101449,
+    "recall": 0.36065573770491804,
+    "f1-score": 0.3384615384615385,
+    "support": 61.0
+  },
+  "2": {
+    "precision": 0.36363636363636365,
+    "recall": 0.375,
+    "f1-score": 0.36923076923076925,
+    "support": 64.0
+  },
+  "accuracy": 0.325,
+  "macro avg": {
+    "precision": 0.3249282118847336,
+    "recall": 0.32966302367941713,
+    "f1-score": 0.3263736263736264,
+    "support": 200.0
+  },
+  "weighted avg": {
+    "precision": 0.32322539779061515,
+    "recall": 0.325,
+    "f1-score": 0.32317032967032966,
+    "support": 200.0
+  }
+}
+Confusion matrix:
+[[19, 34, 22], [19, 22, 20], [27, 13, 24]]
+
+=== logistic ===
+Samples compared: 200
+Accuracy: 0.3250
+Classification report (dict):
+{
+  "0": {
+    "precision": 0.296875,
+    "recall": 0.25333333333333335,
+    "f1-score": 0.2733812949640288,
+    "support": 75.0
+  },
+  "1": {
+    "precision": 0.3188405797101449,
+    "recall": 0.36065573770491804,
+    "f1-score": 0.3384615384615385,
+    "support": 61.0
+  },
+  "2": {
+    "precision": 0.3582089552238806,
+    "recall": 0.375,
+    "f1-score": 0.366412213740458,
+    "support": 64.0
+  },
+  "accuracy": 0.325,
+  "macro avg": {
+    "precision": 0.3246415116446752,
+    "recall": 0.32966302367941713,
+    "f1-score": 0.3260850157220084,
+    "support": 200.0
+  },
+  "weighted avg": {
+    "precision": 0.32320136748323597,
+    "recall": 0.325,
+    "f1-score": 0.32300066323922655,
+    "support": 200.0
+  }
+}
+Confusion matrix:
+[[19, 34, 22], [18, 22, 21], [27, 13, 24]]
+
+=== random_forest ===
+Samples compared: 200
+Accuracy: 0.3250
+Classification report (dict):
+{
+  "0": {
+    "precision": 0.3064516129032258,
+    "recall": 0.25333333333333335,
+    "f1-score": 0.2773722627737226,
+    "support": 75.0
+  },
+  "1": {
+    "precision": 0.30985915492957744,
+    "recall": 0.36065573770491804,
+    "f1-score": 0.3333333333333333,
+    "support": 61.0
+  },
+  "2": {
+    "precision": 0.3582089552238806,
+    "recall": 0.375,
+    "f1-score": 0.366412213740458,
+    "support": 64.0
+  },
+  "accuracy": 0.325,
+  "macro avg": {
+    "precision": 0.32483990768556126,
+    "recall": 0.32966302367941713,
+    "f1-score": 0.32570593661583797,
+    "support": 200.0
+  },
+  "weighted avg": {
+    "precision": 0.3240532627638726,
+    "recall": 0.325,
+    "f1-score": 0.3229331736037592,
+    "support": 200.0
+  }
+}
+Confusion matrix:
+[[19, 34, 22], [18, 22, 21], [25, 15, 24]]
+
+=== tiny_mlp ===
+Samples compared: 200
+Accuracy: 0.3250
+Classification report (dict):
+{
+  "0": {
+    "precision": 0.2857142857142857,
+    "recall": 0.24,
+    "f1-score": 0.2608695652173913,
+    "support": 75.0
+  },
+  "1": {
+    "precision": 0.323943661971831,
+    "recall": 0.3770491803278688,
+    "f1-score": 0.3484848484848485,
+    "support": 61.0
+  },
+  "2": {
+    "precision": 0.36363636363636365,
+    "recall": 0.375,
+    "f1-score": 0.36923076923076925,
+    "support": 64.0
+  },
+  "accuracy": 0.325,
+  "macro avg": {
+    "precision": 0.32443143710749345,
+    "recall": 0.3306830601092896,
+    "f1-score": 0.32619506097766965,
+    "support": 200.0
+  },
+  "weighted avg": {
+    "precision": 0.32230931040790195,
+    "recall": 0.325,
+    "f1-score": 0.3222678118982467,
+    "support": 200.0
+  }
+}
+Confusion matrix:
+[[18, 35, 22], [18, 23, 20], [27, 13, 24]]
+
+=== transformer ===
+Samples compared: 200
+Accuracy: 0.3450
+Classification report (dict):
+{
+  "0": {
+    "precision": 0.30985915492957744,
+    "recall": 0.29333333333333333,
+    "f1-score": 0.3013698630136986,
+    "support": 75.0
+  },
+  "1": {
+    "precision": 0.3384615384615385,
+    "recall": 0.36065573770491804,
+    "f1-score": 0.3492063492063492,
+    "support": 61.0
+  },
+  "2": {
+    "precision": 0.390625,
+    "recall": 0.390625,
+    "f1-score": 0.390625,
+    "support": 64.0
+  },
+  "accuracy": 0.345,
+  "macro avg": {
+    "precision": 0.34631523113037194,
+    "recall": 0.3482046903460838,
+    "f1-score": 0.3470670707400159,
+    "support": 200.0
+  },
+  "weighted avg": {
+    "precision": 0.3444279523293608,
+    "recall": 0.345,
+    "f1-score": 0.3445216351380735,
+    "support": 200.0
+  }
+}
+Confusion matrix:
+[[22, 33, 20], [20, 22, 19], [29, 10, 25]]
+
+=== xgboost ===
+Samples compared: 200
+Accuracy: 0.3250
+Classification report (dict):
+{
+  "0": {
+    "precision": 0.296875,
+    "recall": 0.25333333333333335,
+    "f1-score": 0.2733812949640288,
+    "support": 75.0
+  },
+  "1": {
+    "precision": 0.3188405797101449,
+    "recall": 0.36065573770491804,
+    "f1-score": 0.3384615384615385,
+    "support": 61.0
+  },
+  "2": {
+    "precision": 0.3582089552238806,
+    "recall": 0.375,
+    "f1-score": 0.366412213740458,
+    "support": 64.0
+  },
+  "accuracy": 0.325,
+  "macro avg": {
+    "precision": 0.3246415116446752,
+    "recall": 0.32966302367941713,
+    "f1-score": 0.3260850157220084,
+    "support": 200.0
+  },
+  "weighted avg": {
+    "precision": 0.32320136748323597,
+    "recall": 0.325,
+    "f1-score": 0.32300066323922655,
+    "support": 200.0
+  }
+}
+Confusion matrix:
+[[19, 34, 22], [18, 22, 21], [27, 13, 24]]
+
